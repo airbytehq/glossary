@@ -2,10 +2,9 @@
 
 This is the beginning of the Data Brain to explain term from the data ecosystem.
 
-All the content are located in `content` folder.
+All the content are located in `content` folder. All other folders are based on a framework called [Quartz](https://quartz.jzhao.xyz/) (which uses [GoHugo](https://gohugo.io/)), an open-source [Digital Garden](https://jzhao.xyz/posts/networked-thought) or [Second Brain](https://fortelabs.co/blog/basboverview/).
 
-The rest is base on the [Quartz](https://quartz.jzhao.xyz/), an open-source [digital garden](https://jzhao.xyz/posts/networked-thought) / Second Brain.
-To run the site locally, you need
+Misc:
+- ✍🏻 Want to contribute? Check: [Contribute](https://airbyte.com/brain/#contribution)
+- ❓ To run it locally for previewing see [Quartz](https://quartz.jzhao.xyz/)
 
- If you want to get started, check: https://quartz.jzhao.xyz/
-✍ Or if you want to contribute, check: [Contribute](https://airbyte.com/brain/#contribution)
