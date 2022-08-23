@@ -1,4 +1,4 @@
-baseURL = "https://www.airbyte.com/brain"
+baseURL = "https://docs.airbyte.com/data-brain/"
 languageCode = "en-us"
 googleAnalytics = "G-HDBMVFQGBH"
 relativeURLs = false
