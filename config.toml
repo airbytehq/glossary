@@ -1,6 +1,6 @@
-baseURL = "https://quartz.jzhao.xyz/"
+baseURL = "https://www.airbyte.com/brain"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+googleAnalytics = "G-HDBMVFQGBH"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [

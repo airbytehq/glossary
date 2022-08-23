@@ -1,19 +1,11 @@
-# Quartz
+# Data Brain 🧠
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+This is the beginning of the Data Brain to explain term from the data ecosystem.
 
-1. Extremely fast full-text search by pressing `Ctrl` + `k`
-2. Customizable and hackable design based on Hugo
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in CJK + Latex Support
-5. Support for both Markdown Links and Wikilinks
+All the content are located in `content` folder.
 
-Check out some of the [amazing gardens that community members](https://quartz.jzhao.xyz/notes/showcase/) have published with Quartz!
+The rest is base on the [Quartz](https://quartz.jzhao.xyz/), an open-source [digital garden](https://jzhao.xyz/posts/networked-thought) / Second Brain.
+To run the site locally, you need
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
-
-🔗 Get Started: https://quartz.jzhao.xyz/
-
-![Quartz Example Screenshot](./screenshot.png)*Quartz Example Screenshot*
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+ If you want to get started, check: https://quartz.jzhao.xyz/
+✍ Or if you want to contribute, check: [Contribute](https://airbyte.com/brain/#contribution)

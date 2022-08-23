@@ -1,7 +1,7 @@
 <!-- Contact Info -->
 <div id="contact_buttons">
     <footer>
-        <p>Made by {{ $.Site.Data.config.name }} using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © {{ dateFormat "2006" now }}</p>
+        <!-- <p>Made by {{ $.Site.Data.config.name }} using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © {{ dateFormat "2006" now }}</p> -->
         <ul>
             {{ if not .IsHome }}
             <li><a href="{{ $.Site.BaseURL}}">Home</a></li>
@@ -9,6 +9,7 @@
             {{- range $.Site.Data.config.links -}}
             <li><a href="{{.link}}">{{.link_name}}</a></li>
             {{- end -}}
+            <li><a href="https://airbyte.com">Website</a></li>
         </ul>
     </footer>
 </div>

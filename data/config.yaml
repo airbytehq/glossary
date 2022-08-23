@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Airbyte
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -11,16 +11,15 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/airbytehq/data-brain/tree/hugo/content 
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  A single place for all data knowledge
 page_title:
-  "🪴 Quartz 3.2"
+  "Data Brain 🧠"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/AirbyteHQ
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/airbytehq/airbyte

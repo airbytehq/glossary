@@ -1,0 +1,7 @@
+---
+title: "What is Functional Data Engineering"
+tags:
+- glossary
+- data engineering
+---
+Functional Data Engineering brings _clarity_. When functions are "pure," they do not have side effects. They can be written, tested, reasoned about, and debugged in isolation without understanding the external context or history of events surrounding their execution. Its [Functional Programming](glossary/Functional%20Programming.md) applied to the field of data engineering initiated by Maxime Beauchemin with [Functional Data Engineering — a modern paradigm for batch data processing](https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a).

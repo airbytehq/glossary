@@ -1,26 +1,26 @@
 ---
-title: 🪴 Quartz 3.2
+title: 🧠 Data Brain
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+## A single place for all data knowledge.
+This is the start of a data brain with data terms explained. It encourages you to learn more and go inside the brain to learn more.
 
-1. Extremely fast natural-language [[notes/search|search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+See all Terms [[notes]] or all [[tags]].
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+### Navigation
+You can simply click on the Links and navigation through our content. The best way to start is with the search or Interactive Graph explained below.
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+### Search
+You can also search with `ctrl+k` or by clicking on the search on the top right, you can also search all our content. 
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+### Interactive Graph
+Use the `Interactive Graph` on the bottom. It will appear on every term. You can zoom and click on different nodes to navigate through the content.
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+## Contribution
+> [!info] How to Contribute?
+> 
+> 1.  ⭐ Star our [GitHub](https://github.com/airbytehq/data-brain) repo
+> 2.  🗣️  [Share the Data Brain](https://twitter.com/intent/tweet?text=Have%20you%20seen%20the%20latest%20on%20the%20%22%F0%9F%A7%A0%20Data%20Brain%22?%20airbyte.com/brain)
+> 3.  ✍️ Missing a Term or want to fix a typo? [Contribute to Data Brain](notes/Contribute%20to%20Data%20Brain.md) 
+> 4. 👀 Want to discuss or need help, talk to us on [Slack](https://slack.airbyte.com)
 
