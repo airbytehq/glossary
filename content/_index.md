@@ -1,5 +1,5 @@
 ---
-title: 🧠 Data Brain
+title: Data Brain 🧠
 ---
 
 ## What is the Data Brain?
