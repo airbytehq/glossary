@@ -1,4 +1,4 @@
-baseURL = "https://airbytehq.github.io/glossary/" #make sure it ends with trailing slash #"https://docs.airbyte.com/brain/"
+baseURL = "https://airbytehq.github.io/brain/" #make sure it ends with trailing slash #"https://docs.airbyte.com/brain/"
 languageCode = "en-us"
 googleAnalytics = "G-HDBMVFQGBH"
 relativeURLs = false
