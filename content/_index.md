@@ -10,7 +10,7 @@ Find all [Notes](notes) or by [Tags](tags). The Glossary is constantly evolving 
 The Second Brain approach helps you learn more about topics and go deeper by clicking on relevant links that you see in the [Interactive Graphs] or Backlinks on each term. The graph also helps you see relations that you would not otherwise.
 
 Everything on this Glossary is also open-source on GitHub and you can contribute if you like.
-
+### Contribute
 > [!info] How to Contribute?
 > 
 > 1.  ⭐ Star our [GitHub](https://github.com/airbytehq/glossary) repo
