@@ -1,16 +1,21 @@
 ---
-title: Data Brain 🧠
+title: Glossary 🧠
 ---
 
-## What is the Data Brain?
-A single place for all data knowledge: It's the start of a data brain with data terms explained. It encourages you to learn more and go inside the brain to learn more.
+## A Single Place for All Data Knowledge
+This is the Airbyte Glossary built on top of the [Second Brain] or [Digital Garden] analogy. 
 
-To see all notes that the Data Brain contains, see [All Notes](notes) or by [Tags](tags). The Brain is constantly evolving on topics around data and [#data engineering](tags/data-engineering). 
+Find all [Notes](notes) or by [Tags](tags). The Glossary is constantly evolving on topics around data and [#data engineering](tags/data-engineering). 
+
+The Second Brain approach helps you learn more about topics and go deeper by clicking on relevant links that you see in the [Interactive Graphs] or Backlinks on each term. The graph also helps you see relations that you would not otherwise.
+
+Everything on this Glossary is also open-source on GitHub and you can contribute if you like.
+
 > [!info] How to Contribute?
 > 
-> 1.  ⭐ Star our [GitHub](https://github.com/airbytehq/data-brain) repo
+> 1.  ⭐ Star our [GitHub](https://github.com/airbytehq/glossary) repo
 > 2.  🗣️  [Share the Data Brain](https://twitter.com/intent/tweet?text=Have%20you%20seen%20the%20latest%20on%20the%20%22%F0%9F%A7%A0%20Data%20Brain%22?%20airbyte.com/brain)
-> 3.  ✍️ Missing a Term or want to fix a typo? [Contribute to Data Brain](notes/Contribute%20to%20Data%20Brain.md) 
+> 3.  ✍️ Missing a Term or want to fix a typo? [Contribute to Glossary](notes/Contribute%20to%20Glossary.md) 
 > 4. 👀 Want to discuss or need help, talk to us on [Slack](https://slack.airbyte.com)
 
 ### Navigation
