@@ -8,3 +8,6 @@ Misc:
 - ✍🏻 Want to contribute? Check: [Contribute](https://glossary.airbyte.c/#contribute)
 - ❓ To run it locally for previewing see [Setup (Clone, Edit, run)](https://quartz.jzhao.xyz/notes/setup/)
 
+
+Thank you [Quartz](https://github.com/jackyzha0/quartz/) for open-sourcing it.
+
