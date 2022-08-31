@@ -13,7 +13,7 @@ Everything on this Glossary is also open-source on GitHub and you can contribute
 ### Contribute
 > [!info] How to Contribute?
 > 
-> 1.  ⭐ Star our [GitHub](https://github.com/airbytehq/glossary) repo
+> 1.  ⭐ Star our [GitHub](https://github.com/airbyteglossary/airbyteglossary.github.io) repo
 > 2.  🗣️  [Share the DataB rain](https://twitter.com/intent/tweet?text=Have%20you%20seen%20the%20latest%20on%20the%20%22%F0%9F%A7%A0%20Data%20Brain%22?%20airbyte.com/brain)
 > 3.  ✍️ Missing a Term or want to fix a typo? [Contribute to Glossary](notes/Contribute%20to%20Glossary.md) 
 > 4. 👀 Want to discuss or need help, talk to us on [Slack](https://slack.airbyte.com)

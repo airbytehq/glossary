@@ -11,15 +11,15 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
-GitHubLink: https://github.com/airbytehq/glossary/tree/hugo/content 
+GitHubLink: https://github.com/airbyteglossary/airbyteglossary.github.io/tree/hugo/content 
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
   A single place for all data knowledge
 page_title:
-  "Data Brain 🧠"
+  "Glossary 🧠"
 links:
   - link_name: Twitter
     link: https://twitter.com/AirbyteHQ
   - link_name: Github
-    link: https://github.com/airbytehq/airbyte
+    link: https://github.com/airbytehq
