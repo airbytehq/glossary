@@ -28,7 +28,7 @@ jobs:
           extended: true
 
       - name: lower case urls
-        run: python utils/lower_case.py
+        run: python3 utils/lower_case.py
 
       - name: Build
         run: hugo --minify
