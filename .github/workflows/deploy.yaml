@@ -81,25 +81,31 @@ jobs:
       - name: cat
         run: cat assets/indices/linkIndex.json
 
+      - name: cat
+        run: cat assets/indices/linkIndex.json
+
+      - name: cat
+        run: mv assets/indices/linkIndex.json public/indices/linkIndex.json
+
       - name: ls
         run: ls -l assets/indices
 
-      - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.17
-        with:
-          index: true
-          input: content
-          output: assets/indices
-          root: .
+      # - name: Build Link Index
+      #   uses: jackyzha0/hugo-obsidian@v2.17
+      #   with:
+      #     index: true
+      #     input: content
+      #     output: assets/indices
+      #     root: .
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.96.0'
-          extended: true
+      # - name: Setup Hugo
+      #   uses: peaceiris/actions-hugo@v2
+      #   with:
+      #     hugo-version: '0.96.0'
+      #     extended: true
 
-      - name: Build Hugo (after changing to lower case)
-        run: hugo --minify
+      # - name: Build Hugo (after changing to lower case)
+      #   run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
