@@ -2,7 +2,7 @@ import os
 import sys
 
 # accept first argument
-link_index_path = sys.argv[0]  # "public/indices/"
+link_index_path = sys.argv[1]  # "public/indices/"
 
 
 def read_file_name(file_path: str):
@@ -10,6 +10,8 @@ def read_file_name(file_path: str):
     prefixed = [
         filename for filename in os.listdir(file_path) if filename.startswith("link")
     ]
+    print(prefixed)
+    raise
     return os.path.join(file_path, prefixed[0])
 
 
