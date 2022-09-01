@@ -7,6 +7,14 @@ We have a collection of many terms that are constantly evolving and being added 
 * click on *[All Terms of the Glossary](term)* 
 * or seeing them *[by Tags](tags)*
 
+If you just want to get inspired, you can start with one of these terms:
+- [Data Lake](term/data%20lake.md) // [Data Lake Table Format](term/data%20lake%20table%20format.md) // [Data Lakehouse](term/data%20lakehouse.md)
+- [Functional Data Engineering](term/functional%20data%20engineering.md)
+- [Modern Data Stack](term/modern%20data%20stack.md)
+- [Metrics Layer](term/metrics%20layer.md)
+- [MapReduce](term/mapreduce.md)
+- [Airbyte Related Terms](tags/Airbyte/)
+
 You can simply [Search](https://glossary.airbyte.com/#navigation) for terms and content.
 
 ### Contribute
