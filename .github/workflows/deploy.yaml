@@ -20,9 +20,9 @@ jobs:
         with:
           python-version: "3.9.11"
 
-        # hack to have lower-case links instead e.g. instead of term/Apache-Avro we have term/apache-avro
-      - name: Convert links of terms to lower case
-        run: python3 lower_case.py
+#         # hack to have lower-case links instead e.g. instead of term/Apache-Avro we have term/apache-avro
+#       - name: Convert links of terms to lower case
+#         run: python3 lower_case.py
 
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.17
@@ -32,9 +32,8 @@ jobs:
           output: assets/indices
           root: .
 
-      - name: Convert linkIndex to lower case (assets)
-        run: sudo python3 lower_link_index.py "assets/indices/"
-          #
+      # - name: Convert linkIndex to lower case (assets)
+      #   run: sudo python3 lower_link_index.py "assets/indices/"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -45,13 +44,9 @@ jobs:
       - name: Build Hugo 
         run: hugo --minify
 
-         # hack to also update graph view to lower-case (otherwise links are not showing correctly)
-      - name: Convert links to lower case (public)
-        run: sudo python3 lower_link_index.py "public/indices/"
-
-
-      # - name: Build Hugo (after changing to lower case)
-      #   run: hugo --minify
+         # # hack to also update graph view to lower-case (otherwise links are not showing correctly)
+      # - name: Convert links to lower case (public)
+        # run: sudo python3 lower_link_index.py "public/indices/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
