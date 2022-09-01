@@ -44,7 +44,7 @@ jobs:
         run: ls -l
 
       - name: ls
-        run: ls -l content/term
+        run: ls -l assets/indices
 
       - name: Convert links to lower case
         run: python3 lower_case.py
@@ -71,6 +71,12 @@ jobs:
 
       - name: ls
         run: ls -l
+
+      - name: ls
+        run: ls -l assets/indices
+
+      - name: Convert links to lower case
+        run: python3 lower_link_index.py
 
       - name: ls
         run: ls -l assets/indices
