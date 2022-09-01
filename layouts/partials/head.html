@@ -5,13 +5,13 @@
     name="description"
     content="{{if .IsHome}}{{$.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}"
   />
-  <meta property="og:image" content="glossary-feature.jpeg">
   <title>
     {{ if .Title }}{{ .Title }}{{ else }}{{ $.Site.Data.config.page_title }}{{
     end }}
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta property="og:image" content="glossary-feature.jpeg">
+  <meta name="twitter:image" content="glossary-feature.jpeg">
   <!-- HTML Favicon -->
   {{ $favicon := $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
   {{ $type := (printf "%T" $favicon) }}
