@@ -6,6 +6,7 @@ link_index_path = sys.argv[0]  # "public/indices/"
 
 
 def read_file_name(file_path: str):
+    print(file_path)
     prefixed = [
         filename for filename in os.listdir(file_path) if filename.startswith("link")
     ]

@@ -42,11 +42,11 @@ jobs:
         run: hugo --minify
 
         # hack to also update graph view to lower-case (otherwise links are not showing correctly)
-      - name: Convert links to lower case
+      - name: Convert links to lower case (public)
         run: sudo python3 lower_link_index.py "public/indices/"
 
-      - name: Convert links to lower case
-        run: sudo python3 lower_link_index.py "assets/indices/linkIndex.json"
+      - name: Convert links to lower case (assets)
+        run: sudo python3 lower_link_index.py "assets/indices/"
 
       - name: Build Hugo (after changing to lower case)
         run: hugo --minify
