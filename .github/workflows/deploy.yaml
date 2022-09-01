@@ -70,6 +70,9 @@ jobs:
         run: hugo --minify
 
       - name: ls
+        run: ls -l public/indices
+
+      - name: ls
         run: ls -l
 
       - name: ls
@@ -84,11 +87,14 @@ jobs:
       - name: cat
         run: cat assets/indices/linkIndex.json
 
-      - name: cat
+      - name: move
         run: mv assets/indices/linkIndex.json public/indices/linkIndex.json
 
       - name: ls
         run: ls -l assets/indices
+
+      - name: ls
+        run: ls -l public/indices
 
       # - name: Build Link Index
       #   uses: jackyzha0/hugo-obsidian@v2.17
