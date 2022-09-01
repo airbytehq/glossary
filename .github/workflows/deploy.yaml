@@ -44,9 +44,9 @@ jobs:
         run: ls -l content/term
 
       - name: ls
-        run: ls -l ./public/assets/indices
+        run: ls -l ./public/indices
       - name: ls
-        run: ls -l public/assets/indices
+        run: ls -l public/indices
 
       - name: Convert links to lower case
         run: python3 lower_case.py
