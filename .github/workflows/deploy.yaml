@@ -39,8 +39,8 @@ jobs:
       - name: Install Python dependencies
         run: python3 -m pip install -r ./utils/requirements.txt --user
 
-      - name: Install Python dependencies
-        run: python3 utils/lower_case.py
+      - name: Convert linkt to lower case
+        run: python3 ./utils/lower_case.py
 
       - name: Build again after changing to lower case
         run: hugo --minify
