@@ -76,10 +76,7 @@ jobs:
         run: ls -l assets/indices
 
       - name: Convert links to lower case
-        run: chmod 755 assets/indices/linkIndex.json
-
-      - name: Convert links to lower case
-        run: python3 lower_link_index.py
+        run: python3 lower_link_index.py --user
 
       - name: ls
         run: ls -l assets/indices
