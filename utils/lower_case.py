@@ -1,4 +1,3 @@
-from pandoc.types import *
 import os
 
 link_index_path = "assets/indices/linkIndex.json"
