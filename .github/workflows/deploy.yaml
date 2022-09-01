@@ -69,6 +69,12 @@ jobs:
       - name: Build Hugo (after changing to lower case)
         run: hugo --minify
 
+      - name: ls
+        run: ls -l
+
+      - name: ls
+        run: ls -l assets/indices
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
