@@ -1,7 +1,7 @@
 import os
 
 
-link_index_path = "./assets/indices"
+link_index_path = "assets/indices"
 content_path = "content"
 
 
@@ -31,5 +31,5 @@ def convert_to_lower_case(file_path: str):
 
 
 if __name__ == "__main__":
-    convert_glossary_terms_lower_case(read_file_name(link_index_path))
-    convert_to_lower_case(link_index_path)
+    convert_glossary_terms_lower_case(content_path)
+    convert_to_lower_case(read_file_name(link_index_path))

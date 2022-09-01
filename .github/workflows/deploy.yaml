@@ -41,9 +41,10 @@ jobs:
         run: pwd
 
       - name: ls
-        run: ls -l content/term
+        run: ls -l 
+
       - name: ls
-        run: ls -l public
+        run: ls -l content/term
 
       - name: ls
         run: ls -l public/indices
