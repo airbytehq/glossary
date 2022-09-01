@@ -78,6 +78,9 @@ jobs:
       - name: Convert links to lower case
         run: sudo python3 lower_link_index.py
 
+      - name: cat
+        run: cat assets/indices/linkIndex.json
+
       - name: ls
         run: ls -l assets/indices
 
