@@ -1,5 +1,5 @@
 ---
-title: "What is maxime beauchemin"
+title: "Maxime Beauchemin"
 tags:
 - data engineering
 ---
