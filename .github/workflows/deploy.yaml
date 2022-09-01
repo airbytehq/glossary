@@ -21,11 +21,11 @@ jobs:
           output: assets/indices
           root: .
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.96.0'
-          extended: true
+      # - name: Setup Hugo
+      #   uses: peaceiris/actions-hugo@v2
+      #   with:
+      #     hugo-version: '0.96.0'
+      #     extended: true
 
       # - name: Build
       #   run: hugo --minify
@@ -52,7 +52,13 @@ jobs:
       - name: ls
         run: ls -l content/term
 
-      - name: Build again after changing to lower case
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.96.0'
+          extended: true
+
+      - name: Build Hugo (after changing to lower case)
         run: hugo --minify
 
       - name: Deploy
