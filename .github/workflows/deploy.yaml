@@ -36,8 +36,8 @@ jobs:
         run: sudo python3 lower_link_index.py "assets/indices/"
           #
         # hack to also update graph view to lower-case (otherwise links are not showing correctly)
-      - name: Convert links to lower case (public)
-        run: sudo python3 lower_link_index.py "public/indices/"
+      # - name: Convert links to lower case (public)
+      #   run: sudo python3 lower_link_index.py "public/indices/"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
