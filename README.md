@@ -1,13 +1,14 @@
-# Glossary 🧠
+# Readme of Glossary 🧠
+You can read about the Glossary on [glossary.airbyte.com](https://glossary.airbyte.com/).
 
-This is the Airbyte Glossary built on top of the Second Brain or Digital Garden analogy. It's a single place for all data knowledge.
+## Deployment
+Some technical details of the deployment process.
 
-All the website-content are located in the `content` folder. All other folders are based on a framework called [Quartz](https://quartz.jzhao.xyz/) (which uses [GoHugo](https://gohugo.io/)), an open-source [Digital Garden](https://jzhao.xyz/posts/networked-thought) or [Second Brain](https://fortelabs.co/blog/basboverview/).
+There are two GitHub Actions. First [Deploy to GitHub Pages](https://github.com/airbyteglossary/airbyteglossary.github.io/actions/workflows/deploy.yaml) that package branch `hugo` and run the deployment (e.g. running GoHugo), essentially rendering the webpage to a static webpage. The second action [pages-build-deployment](https://github.com/airbyteglossary/airbyteglossary.github.io/actions/workflows/pages/pages-build-deployment) is taking the `public` folder from branch `hugo` and deploying it to `master`.
 
-Misc:
-- ✍🏻 Want to contribute? Check: [Contribute](https://glossary.airbyte.c/#contribute)
-- ❓ To run it locally for previewing see [Setup (Clone, Edit, run)](https://quartz.jzhao.xyz/notes/setup/)
+The `master` branch is also what you see on [glossary.airbyte.com](https://glossary.airbyte.com). So whenever you push changes to the `hugo` branch omergeerging PRs, the GitHub actions will automatically deploy everything.
 
+The `hugo` branch is not protected and everyone can add. Maybe will change that later. For now, we want a fast update cycle.
 
-Thank you [Quartz](https://github.com/jackyzha0/quartz/) for open-sourcing it.
-
+## Special Thanks
+This repo is a fork of [Quartz](https://github.com/jackyzha0/quartz) and we thank Jacky for open-sourcing this gem.

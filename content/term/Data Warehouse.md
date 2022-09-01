@@ -8,3 +8,5 @@ A Data Warehouse, in short DWH, also known as an Enterprise Data Warehouse (ED
 Various types of business data are analyzed with Data Warehouses. The need for it often becomes evident when analytic requirements run afoul of the ongoing performance of operational databases. Running a complex query on a database requires the database to enter a temporarily fixed state. It is often untenable for transactional databases. A data warehouse is employed to do the analytical work, leaving the transactional database free to focus on transactions.
 
 The other characteristic is analyzing data from multiple origins (e.g., your Google Analytics with your CRM data). It is highly transformed and structured due to the ETL (Extract Transform Load) process.
+
+If you wonder about the difference between a Data Warehouse, Data Lake, and a Lakehouse, read more on our [Data Lake and Lakehouse Guide](https://airbyte.com/blog/data-lake-lakehouse-guide-powered-by-table-formats-delta-lake-iceberg-hudi).

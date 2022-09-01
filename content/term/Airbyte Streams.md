@@ -1,5 +1,5 @@
 ---
-title: "What is an Airbyte Streams"
+title: "What are Airbyte Streams"
 tags:
 - data engineering
 ---
