@@ -27,10 +27,22 @@ jobs:
           hugo-version: '0.96.0'
           extended: true
 
-      - name: lower case urls
+      - name: Build
+        run: hugo --minify
+
+      - name: Checkout python
+        uses: actions/checkout@v2
+      # Setup steps
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9.11"
+      - name: Install Python dependencies
+        run: python3 -m pip install -r ./utils/requirements.txt --user
+
+      - name: Install Python dependencies
         run: python3 utils/lower_case.py
 
-      - name: Build
+      - name: Build again after changing to lower case
         run: hugo --minify
 
       - name: Deploy
