@@ -37,6 +37,9 @@ jobs:
         with:
           python-version: "3.9.11"
 
+      - name: pwd
+        run: pwd
+
       - name: Convert links to lower case
         run: python3 ./utils/lower_case.py
 

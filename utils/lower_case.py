@@ -1,7 +1,7 @@
 import os
 
-link_index_path = "../assets/indices/linkIndex.json"
-content_path = "../content"
+link_index_path = "./assets/indices/linkIndex.json"
+content_path = "./content"
 
 
 def convert_glossary_terms_lower_case(file_path: str):
