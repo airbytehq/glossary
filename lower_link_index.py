@@ -1,7 +1,7 @@
 import os
 
 
-link_index_path = "assets/indices/linkIndex.json"
+link_index_path = "public/indices/"
 
 
 def read_file_name(file_path: str):
@@ -21,4 +21,4 @@ def convert_to_lower_case(file_path: str):
 
 
 if __name__ == "__main__":
-    convert_to_lower_case(link_index_path)
+    convert_to_lower_case(read_file_name(link_index_path))

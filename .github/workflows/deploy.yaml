@@ -72,17 +72,14 @@ jobs:
       - name: ls
         run: ls -l public/indices
 
-      - name: ls
-        run: ls -l
-
-      - name: ls
-        run: ls -l assets/indices
-
       - name: Convert links to lower case
         run: sudo python3 lower_link_index.py
 
-      - name: cat
-        run: cat assets/indices/linkIndex.json
+      - name: ls
+        run: ls -l public/indices
+
+      # - name: Convert links to lower case
+      #   run: sudo python3 lower_link_index.py
 
       - name: cat
         run: cat assets/indices/linkIndex.json
