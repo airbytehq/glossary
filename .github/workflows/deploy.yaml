@@ -27,6 +27,9 @@ jobs:
           hugo-version: '0.96.0'
           extended: true
 
+      - name: lower case urls
+        run: python utils/lower_case.py
+
       - name: Build
         run: hugo --minify
 
