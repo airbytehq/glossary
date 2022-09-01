@@ -1,5 +1,5 @@
 ---
-title: Glossary 🧠
+title: Data Glossary 🧠
 ---
 
 ## A Single Place for All Data Knowledge

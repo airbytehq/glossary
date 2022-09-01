@@ -17,7 +17,7 @@ operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
   A single place for all data knowledge
 page_title:
-  "Glossary 🧠"
+  "Data Glossary 🧠"
 links:
   - link_name: Twitter
     link: https://twitter.com/AirbyteHQ
