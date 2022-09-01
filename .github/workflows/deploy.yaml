@@ -32,12 +32,9 @@ jobs:
           output: assets/indices
           root: .
 
-      - name: Convert links to lower case (assets)
+      - name: Convert linkIndex to lower case (assets)
         run: sudo python3 lower_link_index.py "assets/indices/"
           #
-        # hack to also update graph view to lower-case (otherwise links are not showing correctly)
-      # - name: Convert links to lower case (public)
-      #   run: sudo python3 lower_link_index.py "public/indices/"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -48,9 +45,9 @@ jobs:
       - name: Build Hugo 
         run: hugo --minify
 
-        # hack to also update graph view to lower-case (otherwise links are not showing correctly)
-      # - name: Convert links to lower case (public)
-      #   run: sudo python3 lower_link_index.py "public/indices/"
+         # hack to also update graph view to lower-case (otherwise links are not showing correctly)
+      - name: Convert links to lower case (public)
+        run: sudo python3 lower_link_index.py "public/indices/"
 
 
       # - name: Build Hugo (after changing to lower case)
