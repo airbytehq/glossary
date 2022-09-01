@@ -41,13 +41,13 @@ jobs:
         run: pwd
 
       - name: ls
-        run: ls -l 
+        run: ls -l
 
       - name: ls
         run: ls -l content/term
 
       - name: ls
-        run: ls -l public/indices
+        run: ls -l assets/indices
 
       - name: Convert links to lower case
         run: python3 lower_case.py
