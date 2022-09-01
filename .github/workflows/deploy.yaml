@@ -36,4 +36,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: https://github.com/airbyteglossary/airbyteglossary.github.io #https://glossary.airbyte.com # without trailing slash #https://airbytehq.github.io/brain
+          cname: github.com/airbyteglossary/airbyteglossary.github.io
+          # cname: https://github.com/airbyteglossary/airbyteglossary.github.io #https://glossary.airbyte.com # without trailing slash #https://airbytehq.github.io/brain
