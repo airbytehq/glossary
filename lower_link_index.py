@@ -1,7 +1,8 @@
 import os
+import sys
 
-
-link_index_path = "public/indices/"
+# accept first argument
+link_index_path = sys.argv[0]  # "public/indices/"
 
 
 def read_file_name(file_path: str):
