@@ -42,9 +42,9 @@ jobs:
 
       - name: ls
         run: ls -l content/term
-
       - name: ls
-        run: ls -l ./public/indices
+        run: ls -l public
+
       - name: ls
         run: ls -l public/indices
 
