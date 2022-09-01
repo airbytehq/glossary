@@ -1,7 +1,7 @@
 ---
 title: "What is Incremental Synchronization"
 tags:
-- data engineering
+- Airbyte
 ---
 Incremental synchronization is a process which efficiently copies data to a destination system by periodically executing queries on a source system for records that have been updated or inserted since the previous sync operation. Only those records that have been recently inserted or updated will be sent to the destination, which is much more efficient than copying an entire data set on each sync operation. Incremental synchronization makes use of a cursor field such as "updated_at" (or whatever you wish to call the field) to determine which records should be propagated, and only records with an "updated_at" value that is newer than the "updated_at" value of the most recent record sent in the previous sync should be replicated.  
   

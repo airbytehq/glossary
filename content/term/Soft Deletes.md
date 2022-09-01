@@ -1,7 +1,7 @@
 ---
 title: "What is Soft Deletes"
 tags:
-- data engineering
+- Airbyte
 ---
 In order to propagate records that have been deleted when using [Incremental Synchronization](term/Incremental%20Synchronization.md) modes, records in a database may include a field that indicates that a record should be treated as if it has been removed. This is necessary because incremental synchronization does not replicate documents that are fully deleted from a source system.  
   
