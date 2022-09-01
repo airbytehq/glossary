@@ -8,7 +8,7 @@ def read_file_name(file_path: str):
     prefixed = [
         filename for filename in os.listdir(file_path) if filename.startswith("link")
     ]
-    return prefixed[0]
+    return os.path.join(file_path, prefixed[0])
 
 
 def convert_to_lower_case(file_path: str):
