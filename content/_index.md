@@ -15,7 +15,7 @@ Everything on this Glossary is open-sourced on GitHub and you can contribute if 
 > 
 > 1.  ⭐ Star our [GitHub](https://github.com/airbyteglossary/airbyteglossary.github.io) repo
 > 2.  🗣️  [Share the Glossary](https://twitter.com/intent/tweet?text=Have%20you%20seen%20the%20latest%20on%20the%20%22Airbyte%20Glossary%20%F0%9F%A7%A0?%20glossary.airbyte.com)
-> 3.  ✍️ Missing a Term or want to fix a typo? [Contribute to Glossary](term/Contribute%20to%20Glossary.md) 
+> 3.  ✍️ Missing a Term or want to fix a typo? [contribute to glossary](term/contribute%20to%20glossary.md) 
 > 4. 👀 Want to discuss or need help, talk to us on [Slack](https://slack.airbyte.com)
 
 ### Navigation
