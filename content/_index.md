@@ -4,8 +4,8 @@ title: Glossary 🧠
 
 ## A Single Place for All Data Knowledge
 We have a collection of many terms that are constantly evolving and being added to them. To see all terms you can either:
-* click on *[All Notes](term)* 
-* or *[Tags](tags)* to see by tags 
+* click on *[All Terms of the Glossary](term)* 
+* or seeing them *[by Tags](tags)*
 
 You can simply [Search](https://glossary.airbyte.com/#navigation) for terms and content.
 
