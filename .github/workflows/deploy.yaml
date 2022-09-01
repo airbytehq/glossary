@@ -9,6 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
+      - uses: docker://pandoc/core:2.9
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -39,7 +41,7 @@ jobs:
       - name: Install Python dependencies
         run: python3 -m pip install -r ./utils/requirements.txt --user
 
-      - name: Convert linkt to lower case
+      - name: Convert links to lower case
         run: python3 ./utils/lower_case.py
 
       - name: Build again after changing to lower case
