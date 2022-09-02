@@ -4,7 +4,7 @@ tags:
 - help
 weight: -9
 ---
-You can either click on `Edit Source` on each page and directly edit on GitHub or you can create a [New Issue](https://github.com/airbyteglossary/airbyteglossary.github.io/issues).
+You can either click on `Edit Source` on each page and directly edit on GitHub or you can create a [New Issue](https://github.com/airbytehq/glossary/issues).
 
 The nice thing is you can also run it locally and edit with [Obsidian](https://obsidian.md/) (if the GitHub direct edit is not enough or you want to change the design). 
 

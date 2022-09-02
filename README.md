@@ -9,7 +9,7 @@ Terms are lower case that links are also lower case. When we create a link to a 
 ## Deployment
 Some technical details of the deployment process.
 
-There are two GitHub Actions. First [Deploy to GitHub Pages](https://github.com/airbyteglossary/airbyteglossary.github.io/actions/workflows/deploy.yaml) that package branch `hugo` and run the deployment (e.g. running GoHugo), essentially rendering the webpage to a static webpage. The second action [pages-build-deployment](https://github.com/airbyteglossary/airbyteglossary.github.io/actions/workflows/pages/pages-build-deployment) is taking the `public` folder from branch `hugo` and deploying it to `master`.
+There are two GitHub Actions. First [Deploy to GitHub Pages](https://github.com/airbytehq/glossary/actions/workflows/deploy.yaml) that package branch `hugo` and run the deployment (e.g. running GoHugo), essentially rendering the webpage to a static webpage. The second action [pages-build-deployment](https://github.com/airbyteglossary/airbyteglossary.github.io/actions/workflows/pages/pages-build-deployment) is taking the `public` folder from branch `hugo` and deploying it to `master`.
 
 The `master` branch is also what you see on [glossary.airbyte.com](https://glossary.airbyte.com). So whenever you push changes to the `hugo` branch omergeerging PRs, the GitHub actions will automatically deploy everything.
 
