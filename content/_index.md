@@ -4,7 +4,6 @@ title: Data Glossary 🧠
 
 ## A Single Place for All Data Knowledge
 Find all Glossary Terms below:
-* [All Terms of the Glossary](term)
 * [By Tags](tags)
 
 If you just want to get inspired, you can start with one of these terms:
