@@ -2,6 +2,7 @@
 title: "Data Engineering Guides"
 tags:
 - data engineering
+- concept
 ---
 
 Some Data Engineering Guides that will help you learn [data engineering](term/data%20engineering.md):

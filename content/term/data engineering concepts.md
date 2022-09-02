@@ -2,6 +2,7 @@
 title: "Data Engineering Concepts"
 tags:
 - data engineering
+- concept
 ---
 Some core concepts we are going to explore:
 
