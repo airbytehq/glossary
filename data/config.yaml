@@ -9,7 +9,7 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: true
+enableRecentNotes: false #it does not work as with a new push always everything is dedected as new
 enableGitHubEdit: true
 GitHubLink: https://github.com/airbyteglossary/airbyteglossary.github.io/tree/hugo/content 
 enableSemanticSearch: false
