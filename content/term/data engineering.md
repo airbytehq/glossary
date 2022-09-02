@@ -16,4 +16,5 @@ With that said more programmatic skills are needed similar to software engineeri
 
 As a data engineer, you use mainly [SQL](term/sql.md) for almost everything except when using external data from an API. Here you'd use [ELT](term/elt.md) tools or write some [[data pipelines]] with the tools mentioned above.
 
-See more on [The Evolution in Data Engineering](https://youtu.be/Si14Hgj4Lok).
+See the video about the evolution of data engineers:
+{{< youtube Si14Hgj4Lok >}}
