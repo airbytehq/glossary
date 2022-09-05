@@ -12,6 +12,8 @@ Some core concepts we are going to explore:
 - [Metrics Layer](term/metrics%20layer.md)
 - [ELT](term/elt.md) vs [ETL](term/etl.md)
 - [MapReduce](term/mapreduce.md)
+- [Notebooks](term/notebooks.md)
+- [Dimensional Modeling](term/dimensional%20modeling.md)
 - [[OLTP]] vs [[OLAP]]
 - [[Data Modeling]]
 - [[Batch processing]] vs [[Streaming Processing]]
