@@ -1,5 +1,5 @@
 ---
-title: "What is a Storage Layer?"
+title: "What is a Storage Layer / Object Store?"
 tags:
 - data engineering
 aliases:

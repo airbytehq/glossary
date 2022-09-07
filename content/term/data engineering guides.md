@@ -13,7 +13,7 @@ Some Data Engineering Guides that will help you learn [data engineering](term/da
 	- The what & why of a [Data Lake](term/data%20lake.md)
 	- Differences between [Lakehouse](term/data%20lakehouse.md) & [Data Warehouse](term/data%20warehouse.md)
 	- Components of a data lake
-		1. [Storage Layer](term/storage%20layer.md)
+		1. [Storage Layer](term/storage%20layer%20object%20store.md)
 		2. [Data Lake File Format](term/data%20lake%20file%20format.md)
 		3. [Data Lake Table Format](term/data%20lake%20table%20format.md) with [Apache Parquet](term/apache%20parquet.md), [Apache Iceberg](term/apache%20iceberg.md), and [Apache Hudi](term/apache%20hudi.md)
 	- Trends in the market
