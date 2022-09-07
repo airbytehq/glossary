@@ -1,5 +1,5 @@
 ---
-title: "What are Soft Deletes"
+title: "What is a Soft Delete"
 tags:
 - airbyte
 ---
