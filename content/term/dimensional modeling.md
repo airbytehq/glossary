@@ -1,5 +1,5 @@
 ---
-title: "What is Dimensional Modeling"
+title: "What is Dimensional Modeling?"
 tags:
 - data engineering
 ---

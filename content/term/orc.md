@@ -1,5 +1,5 @@
 ---
-title: "What is ORC"
+title: "What is ORC?"
 tags:
 - data engineering
 ---

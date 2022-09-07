@@ -1,5 +1,5 @@
 ---
-title: "What is YAML"
+title: "What is YAML?"
 tags:
 - devops
 ---

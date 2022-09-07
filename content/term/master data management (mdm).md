@@ -1,5 +1,5 @@
 ---
-title: "What is Master Data Management (MDM)"
+title: "What is Master Data Management (MDM)?"
 tags:
 - data engineering
 ---

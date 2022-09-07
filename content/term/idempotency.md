@@ -1,5 +1,5 @@
 ---
-title: "What is Idempotency"
+title: "What is Idempotency?"
 tags:
 - data engineering
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Lakehouse"
+title: "What is a Data Lakehouse?"
 tags:
 - data engineering
 aliases:

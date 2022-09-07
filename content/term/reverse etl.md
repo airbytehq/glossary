@@ -1,5 +1,5 @@
 ---
-title: "What is Reverse ETL"
+title: "What is Reverse ETL?"
 tags:
 - data engineering
 aliases:

@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Lake"
+title: "What is a Data Lake?"
 tags:
 - data engineering
 ---

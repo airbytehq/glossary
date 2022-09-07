@@ -1,5 +1,5 @@
 ---
-title: "What is Data Governance"
+title: "What is Data Governance?"
 tags:
 - data engineering
 ---

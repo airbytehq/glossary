@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Orchestrator"
+title: "What is a Data Orchestrator?"
 tags:
 - data engineering
 ---

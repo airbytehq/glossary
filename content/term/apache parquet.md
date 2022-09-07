@@ -1,5 +1,5 @@
 ---
-title: "What is Apache Parquet"
+title: "What is Apache Parquet?"
 tags:
 - data engineering
 ---

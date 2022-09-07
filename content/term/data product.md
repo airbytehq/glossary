@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Product"
+title: "What is a Data Product?"
 tags:
 - data engineering
 ---

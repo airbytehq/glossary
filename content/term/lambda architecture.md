@@ -1,5 +1,5 @@
 ---
-title: "What is a Lambda Architecture"
+title: "What is a Lambda Architecture?"
 tags:
 - data engineering
 ---

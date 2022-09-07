@@ -1,5 +1,5 @@
 ---
-title: "What is ELT"
+title: "What is ELT?"
 tags:
 - data engineering
 ---

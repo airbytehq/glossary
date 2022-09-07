@@ -1,5 +1,5 @@
 ---
-title: "What is Analytics"
+title: "What is Analytics?"
 tags:
 - data engineering
 aliases:

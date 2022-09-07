@@ -1,5 +1,5 @@
 ---
-title: "What is Data Virtualization"
+title: "What is Data Virtualization?"
 tags:
 - data engineering
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is Apache Iceberg"
+title: "What is Apache Iceberg?"
 tags:
 - data engineering
 ---

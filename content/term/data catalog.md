@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Catalog"
+title: "What is a Data Catalog?"
 tags:
 - data engineering
 ---

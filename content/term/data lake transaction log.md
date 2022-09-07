@@ -1,5 +1,5 @@
 	---
-title: "What is a Data Lake Transaction Log"
+title: "What is a Data Lake Transaction Log?"
 tags:
 - data engineering
 ---

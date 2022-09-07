@@ -1,5 +1,5 @@
 ---
-title: "What is DataOps"
+title: "What is DataOps?"
 tags:
 - devops
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is Slowly Changing Dimension"
+title: "What is Slowly Changing Dimension?"
 tags:
 - data engineering
 ---

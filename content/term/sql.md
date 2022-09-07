@@ -1,5 +1,5 @@
 ---
-title: "What is SQL"
+title: "What is SQL?"
 tags:
 - data engineering
 - coding

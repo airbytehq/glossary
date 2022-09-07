@@ -1,5 +1,5 @@
 ---
-title: "What is Business Intelligence"
+title: "What is Business Intelligence?"
 tags:
 - data engineering
 ---
@@ -13,4 +13,3 @@ BI should produce a simple overview of your business, boost efficiency, and auto
   * **Empower users**: With the so-called self-service BI, every user can analyze their data instead of only BI or IT persons.
 
 Read more on [Business Intelligence meets Data Engineering with Emerging Technologies](https://www.sspaeti.com/blog/business-intelligence-meets-data-engineering/).
-

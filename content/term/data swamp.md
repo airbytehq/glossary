@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Swamp"
+title: "What is a Data Swamp?"
 tags:
 - data engineering
 ---

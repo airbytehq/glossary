@@ -1,5 +1,5 @@
 ---
-title: "What is Functional Programming"
+title: "What is Functional Programming?"
 tags:
 - coding
 ---

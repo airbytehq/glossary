@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Lake Table Format"
+title: "What is a Data Lake Table Format?"
 tags:
 - data engineering
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is Data Mesh"
+title: "What is Data Mesh?"
 tags:
 - data engineering
 ---

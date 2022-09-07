@@ -1,5 +1,5 @@
 ---
-title: "What is a Metrics Layer"
+title: "What is a Metrics Layer?"
 tags:
 - data engineering
 ---

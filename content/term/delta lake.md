@@ -1,5 +1,5 @@
 ---
-title: "What is Delta Lake"
+title: "What is Delta Lake?"
 tags:
 - data engineering
 ---

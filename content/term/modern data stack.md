@@ -1,5 +1,5 @@
 ---
-title: "What is Modern Data Stack"
+title: "What is Modern Data Stack?"
 tags:
 - data engineering
 ---

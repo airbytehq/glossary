@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Asset"
+title: "What is a Data Asset?"
 tags:
 - data engineering
 ---

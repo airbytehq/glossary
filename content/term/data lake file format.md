@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Lake File Format"
+title: "What is a Data Lake File Format?"
 tags:
 - data engineering
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What are Airbyte Streams"
+title: "What are Airbyte Streams?"
 tags:
 - airbyte
 ---

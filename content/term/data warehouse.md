@@ -1,5 +1,5 @@
 ---
-title: "What is a Data Warehouse"
+title: "What is a Data Warehouse?"
 tags:
 - data engineering
 ---

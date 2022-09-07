@@ -1,5 +1,5 @@
 ---
-title: "What is Functional Data Engineering"
+title: "What is Functional Data Engineering?"
 tags:
 - data engineering
 ---

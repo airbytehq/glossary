@@ -1,5 +1,5 @@
 ---
-title: "What is Data Lineage"
+title: "What is Data Lineage?"
 tags:
 - data engineering
 ---

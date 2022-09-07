@@ -1,5 +1,5 @@
 ---
-title: "What are Notebooks"
+title: "What are Notebooks?"
 tags:
 - data engineering
 ---
@@ -12,6 +12,5 @@ Data notebooks popularized by Jupyter notebooks are the centralized IDE inside a
 	- [Zeppelin](https://zeppelin.apache.org/)
 	- [Databricks Notebook](https://docs.databricks.com/notebooks/index.html)
 2. Newer versions of Jupyter notebooks with more integrated features and an integrated cloud
-	- [HEX](https://hex.tech/) 
+	- [HEX](https://hex.tech/)
 	- [Deepnote](https://deepnote.com/)
-

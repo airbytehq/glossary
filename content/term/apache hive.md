@@ -1,5 +1,5 @@
 ---
-title: "What is Apache Hive"
+title: "What is Apache Hive?"
 tags:
 - data engineering
 ---

@@ -1,5 +1,5 @@
 ---
-title: "What is a Directed Acyclic Graph (DAG)"
+title: "What is a Directed Acyclic Graph (DAG)?"
 tags:
 - data engineering
 ---
