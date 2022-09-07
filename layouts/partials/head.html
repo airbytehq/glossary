@@ -1,3 +1,6 @@
+<!-- set data/config yaml file based on website language -->
+{{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
+{{ $data := index $.Site.Data $config }}
 <head>
   <!-- Meta tags -->
   <meta charset="UTF-8" />
@@ -14,6 +17,10 @@
   <meta property="og:width" content="1119">
   <meta property="og:height" content="630">
   <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@sspaeti" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="{{if .IsHome}}{{$.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}" />
   <meta name="twitter:image" content="https://glossary.airbyte.com/glossary-feature.jpeg">
   <!-- HTML Favicon -->
   {{ $favicon := $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
