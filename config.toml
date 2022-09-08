@@ -1,6 +1,6 @@
 baseURL = "https://glossary.airbyte.com/" #make sure it ends with trailing slash 
 languageCode = "en-us"
-googleAnalytics = "G-HDBMVFQGBH"
+googleAnalytics = "UA-156258629-2" #"G-HDBMVFQGBH"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
