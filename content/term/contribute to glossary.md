@@ -30,11 +30,8 @@ Example image (source is in content/images/example.png)
 ![Example Image](/content/images/example.png)
 ```
 
-
-
-
 ### Lower Case
-Terms are lower case that links are also lowercase. When we create a link to a term, I usually capitalize the beginning of each word to make it look nice. E.g `[Apache Arrow](term/apache%20arrow.md). Other such as YAML I write all in capitals.
+Terms are lower case that links are also lowercase. When we create a link to a term, I usually capitalize the beginning of each word to make it look nice. E.g `[Apache Arrow](term/apache%20arrow.md)`. Other such as YAML I write all in capitals.
 
 We didn't activate wikilinks, but that would be an option as well. See more on [editing](https://quartz.jzhao.xyz/notes/editing/).
 ### Metatag with Front Matter
