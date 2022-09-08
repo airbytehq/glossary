@@ -1,17 +1,19 @@
 # Readme of Glossary 🧠
-You can read about the Glossary on [glossary.airbyte.com](https://glossary.airbyte.com/).
 
+This is the technical part about the Data Glossory. 
 
-## Lower Case
-Terms are lower case that links are also lower case. When we create a link to a term, I usually capitalize beginning of each word to make it look nice. E.g `[Apache Arrow](term/apache%20arrow.md). Other such as YAML I write all in capitals.
+Please see more about how to edit or publish on [How to Contribute](https://glossary.airbyte.com/term/contribute-to-glossary/). The glossary it live on [glossary.airbyte.com](https://glossary.airbyte.com).
 
+* ✍ Missing a Term or want to fix a typo? Check [How to Contribute](https://glossary.airbyte.com/term/contribute-to-glossary/)
+* 👀 Want to discuss or need help, talk to us on [Slack](https://slack.airbyte.com/)
 
-## Deployment
+# Technical part
 Some technical details of the deployment process.
 
-There are two GitHub Actions. First [Deploy to GitHub Pages](https://github.com/airbytehq/glossary/actions/workflows/deploy.yaml) that package branch `hugo` and run the deployment (e.g. running GoHugo), essentially rendering the webpage to a static webpage. The second action [pages-build-deployment](https://github.com/airbyteglossary/airbyteglossary.github.io/actions/workflows/pages/pages-build-deployment) is taking the `public` folder from branch `hugo` and deploying it to `master`.
+## Deployment
+There are two GitHub Actions. First [Deploy to GitHub Pages](https://github.com/airbytehq/glossary/actions/workflows/deploy.yaml) that package branch `hugo` and run the deployment (e.g. running GoHugo), essentially rendering the webpage to a static webpage. It will build and publish the static website to [master](https://github.com/airbyteglossary/airbyteglossary.github.io/tree/master) branch on publishing repo.
 
-The `master` branch is also what you see on [glossary.airbyte.com](https://glossary.airbyte.com). So whenever you push changes to the `hugo` branch omergeerging PRs, the GitHub actions will automatically deploy everything.
+The `master` branch is also what you see on [glossary.airbyte.com](https://glossary.airbyte.com). So whenever you push changes to the `hugo` branch, it will automatically be merged and deployed.
 
 The `hugo` branch is not protected and everyone can add. Maybe will change that later. For now, we want a fast update cycle.
 
