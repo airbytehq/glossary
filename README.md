@@ -1,7 +1,5 @@
 # Readme of Glossary 🧠
 
-This is the technical part about the Data Glossory. 
-
 Please see more about how to edit or publish on [How to Contribute](https://glossary.airbyte.com/term/contribute-to-glossary/). The glossary it live on [glossary.airbyte.com](https://glossary.airbyte.com).
 
 * ✍ Missing a Term or want to fix a typo? Check [How to Contribute](https://glossary.airbyte.com/term/contribute-to-glossary/)
