@@ -11,7 +11,7 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false #it does not work as with a new push always everything is dedected as new
 enableGitHubEdit: true
-GitHubLink: https://github.com/airbytehq/glossary/tree/hugo/content 
+GitHubLink: https://github.com/airbytehq/glossary/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
