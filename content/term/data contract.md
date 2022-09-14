@@ -10,7 +10,7 @@ It's an **abstract** that allows engineers to decouple their databases and servi
 ![](images/Pasted%20image%2020220912170512.png)
 Illustration by Chad Sanderson on [The Rise of Data Contracts - by Chad Sanderson](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
 
-[Chad Sanderson](https://www.linkedin.com/in/chad-sanderson/) said that at Convoy, they use [[Protobuf]] and [[Apache Kafka]] to abstract the CRUD transactions. They define the schema based on what they *need*, not what they get from the source. Same as [[Software-Defined Assets]] describe the [Data Asset](term/data%20asset.md) in a declarative manner.
+[Chad Sanderson](https://www.linkedin.com/in/chad-sanderson/) said that at Convoy, they use [[Protobuf]] and [[Apache Kafka]] to abstract the CRUD transactions. They define the schema based on what they *need*, not what they get from the source. Same as [[Software-Defined Assets]] describe the [Data Asset](term/data%20asset.md) in a declarative manner and set [expectations](https://github.com/dagster-io/dagster/discussions/9543).
 
 Confluent also built similar functions on top of Kafka with their [Schema Registry](https://docs.confluent.io/platform/current/schema-registry/), and terms such as [Semantic Layer](term/metrics%20layer.md) and [Analytics API](https://www.sspaeti.com/blog/analytics-api-with-graphql-the-next-level-of-data-engineering/#what-is-an-analytics-api) (with [[GraphQL]]) are trying to achieve similar things.
 
