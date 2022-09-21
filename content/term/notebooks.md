@@ -14,5 +14,5 @@ Data notebooks popularized by Jupyter notebooks are the centralized IDE inside a
 2. Newer versions of Jupyter notebooks with more integrated features and an integrated cloud
 	- [HEX](https://hex.tech/)
 	- [Deepnote](https://deepnote.com/)
-	-[Count.co](https://count.co)
+	- [Count.co](https://count.co)
 

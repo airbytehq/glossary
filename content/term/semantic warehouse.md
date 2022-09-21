@@ -5,7 +5,7 @@ tags:
 ---
 It incorporates best practices espoused by [Bill Inmon](Bill%20Inmon) for robust, scalable warehouse design built for the cloud as an abstraction of the [[Modern Data Stack]] with [[Data Modeling]] at its core. 
 
-![](images/Pasted%20image%2020220909171758.png)
+![](images/semantic-warehouse.png)
 Illustrating the Semantic Warehouse from [Chad Sanderson on LinkedIn](https://www.linkedin.com/posts/chad-sanderson_im-very-happy-to-unveil-the-semantic-warehouse-activity-6958091220157964288-JSXj/)
 
 Chad Sanders first introduced the term in this [LinkedIn post](https://www.linkedin.com/posts/chad-sanderson_im-very-happy-to-unveil-the-semantic-warehouse-activity-6958091220157964288-JSXj/). Some defining features:

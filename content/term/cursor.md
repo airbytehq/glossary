@@ -13,4 +13,4 @@ For example, a source database could contain records which include a field calle
 
 Note that while it is not strictly necessary to choose a time field for a cursor field, the field that is chosen should be monotonically increasing over time.
 
-Read more on [Airbyte's Full Refresh Data Synchronization](https://airbyte.com/tutorials/full-data-synchronization).
+Read more on [Incremental data synchronization between Postgres databases](https://airbyte.com/tutorials/incremental-data-synchronization). 

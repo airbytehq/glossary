@@ -7,7 +7,7 @@ Data Contracts are API-like agreements between software/data engineers who own s
 
 It's an **abstract** that allows engineers to decouple their databases and services from analytics and ML requirements. It will avoid production-breaking incidents when modifying the schema as they are validated and enforced.
 
-![](images/Pasted%20image%2020220912170512.png)
+![](images/data-contract.png)
 Illustration by Chad Sanderson on [The Rise of Data Contracts - by Chad Sanderson](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
 
 [Chad Sanderson](https://www.linkedin.com/in/chad-sanderson/) said that at Convoy, they use [[Protobuf]] and [[Apache Kafka]] to abstract the CRUD transactions. They define the schema based on what they *need*, not what they get from the source. Same as [[Software-Defined Assets]] describe the [Data Asset](term/data%20asset.md) in a declarative manner and set [expectations](https://github.com/dagster-io/dagster/discussions/9543).
@@ -35,7 +35,7 @@ Ethan Aaron is saying his problem with data contracts is that you focus on defin
 ## Summary Blog Posts
 An excellent summary by [Mehdi Ouazza](https://www.linkedin.com/in/mehd-io) about data contracts [From Zero To Hero](https://towardsdatascience.com/data-contracts-from-zero-to-hero-343717ac4d5e). He is illustrating how [[Apache Kafka]] could also be the interface that defines the contract.
 
-![](images/Pasted%20image%2020220909163231.png)
+![](images/data-contract-example.png)
 Illustration from [Data Contracts — From Zero To Hero](https://towardsdatascience.com/data-contracts-from-zero-to-hero-343717ac4d5e)
 
 See also [Semantic Warehouse](term/semantic%20warehouse.md).

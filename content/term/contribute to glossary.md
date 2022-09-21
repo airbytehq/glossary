@@ -73,8 +73,8 @@ git clone https://github.com/airbytehq/glossary.git
 #### Obsidian as an Editor (Recommended)
 If you want to use [Obsidian](https://obsidian.md/), which I recommend as it will handle all links when renaming terms, adding a nice Markdown view with lots of features (even if you don't need them) and showing backlinks and [graph](term/about%20this%20glossary.md#interactive-graph). Just open the Obsidian in the folder `content/`, there is a hidden folder called `.obsidian` which does the rest.
 
-1. ![](images/Pasted%20image%2020220908082431.png)
-2. ![](images/Pasted%20image%2020220908082439.png)
+1. ![](images/setup-obsidian-vault.png)
+2. ![](images/setup-folder-structure.png)
 
 More details and step-by-step manual you see on [Quartz Setup](https://quartz.jzhao.xyz/notes/setup/), how to [Edit Notes ](https://quartz.jzhao.xyz/notes/editing/) and [How to set up Obsidian](https://quartz.jzhao.xyz/notes/obsidian/) (although the settings are already done when you open the `.obsidian` folder as described above).
 
