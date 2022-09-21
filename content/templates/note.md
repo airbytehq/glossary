@@ -1,5 +1,5 @@
 ---
-title: "What is {{title}}"
+title: "What is {{title}}?"
 tags:
 - data engineering
 ---
