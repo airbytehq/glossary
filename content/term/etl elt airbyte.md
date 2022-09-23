@@ -1,7 +1,7 @@
 ---
 title: "ETL and ELT with Airbyte"
 tags:
-- Airbyte
+- airbyte
 ---
 [ELT](term/elt.md) and [ETL](term/etl.md) specific to Airbyte mean:
 - **Extract**: Retrieve data from a [source](https://docs.airbyte.com/integrations/#Sources), which can be an application, database, or anything really.

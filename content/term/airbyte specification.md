@@ -1,7 +1,7 @@
 ---
 title: "airbyte specification"
 tags:
-- Airbyte
+- airbyte
 ---
 > [!info] Info
 > 

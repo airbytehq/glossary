@@ -1,7 +1,7 @@
 ---
 title: "Airbyte Catalog"
 tags:
-- Airbyte
+- airbyte
 ---
 
 > [!info] Info
