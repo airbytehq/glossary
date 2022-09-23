@@ -1,5 +1,5 @@
 ---
-title: "airbyte specification"
+title: "Airbyte Specification"
 tags:
 - airbyte
 ---

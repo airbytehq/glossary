@@ -8,7 +8,7 @@ tags:
 Some Data Engineering Guides that will help you learn [data engineering](term/data%20engineering.md):
 
 - **[Data Quality](https://airbyte.com/blog/data-quality-issues)**
-	- How to handle [[Data Quality]] issues by detecting, understanding, fixing, and reduce
+	- How to handle [[term/data quality]] issues by detecting, understanding, fixing, and reduce
 - **[Data Lake / Lakehouse Guide](https://airbyte.com/blog/data-lake-lakehouse-guide-powered-by-table-formats-delta-lake-iceberg-hudi)**
 	- The what & why of a [Data Lake](term/data%20lake.md)
 	- Differences between [Lakehouse](term/data%20lakehouse.md) & [Data Warehouse](term/data%20warehouse.md)
