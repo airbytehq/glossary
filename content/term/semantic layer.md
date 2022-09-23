@@ -15,11 +15,10 @@ Because everyone has different definitions of “active” users or “paying”
 A sub-layer of the semantic layer is the [Metrics Layer](term/metrics%20layer.md). 
 
 Read more on [The Rise of the Semantic Layer]() or other fascinating reads on the topic:
--   [Down the semantic rabbit hole](https://jpmonteiro.substack.com/p/down-the-semantic-rabbit-hole)
--   [The missing piece of the modern data stack](https://benn.substack.com/p/metrics-layer) 
+-   [Down the Semantic Rabbit Hole](https://jpmonteiro.substack.com/p/down-the-semantic-rabbit-hole)
+-   [The Missing Piece of the Modern Data Stack](https://benn.substack.com/p/metrics-layer) 
 -   [Deep Dive: What The Heck Is the Metrics Layer](https://pedram.substack.com/p/what-is-the-metrics-layer)
 -   [The Great Data Debate by Atlan](https://atlan.com/great-data-debate/)
--   [The metrics layer has growing up to do](https://prakasha.substack.com/p/the-metrics-layer-has-growing-up)
+-   [The Metrics Layer has Growing up to do](https://prakasha.substack.com/p/the-metrics-layer-has-growing-up)
 -   [The Universal Semantic Layer, More Important Than Ever](https://www.atscale.com/blog/what-is-a-universal-semantic-layer-why-would-you-want-one/)
 -   [Demystifying the Metrics Store and Semantic Layer](https://thenewstack.io/demystifying-the-metrics-store-and-semantic-layer/)
--   [The metrics layer has growing up to do](https://www.thoughtspot.com/blog/the-metrics-layer-has-growing-up-to-do)
