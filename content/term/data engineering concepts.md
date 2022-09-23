@@ -12,16 +12,15 @@ Some core concepts we are going to explore:
 - [Data Contract](term/data%20contract.md)
 - [Metrics Layer](term/metrics%20layer.md) vs [Semantic Warehouse](term/semantic%20warehouse.md) vs [Data Virtualization](term/data%20virtualization.md)
 	- [Metrics](term/metric.md), [Key Performance Indicator (KPI)](term/key%20performance%20indicator%20(kpi).md)
-	- [Push-Downs](term/push-down.md)
+	- [Push-Downs](term/push-down.md) vs [Rollup](term/rollup.md)
+	- [Data Modeling](term/data%20modeling.md) vs [Dimensional Modeling](term/dimensional%20modeling.md)
 - [ELT](term/elt.md) vs [ETL](term/etl.md)
+- [OLAP](term/olap%20(online%20analytical%20processing).md) vs [OLTP](term/oltp%20(online%20transactional%20processing).md)
 - [MapReduce](term/map%20reduce.md)
 - [Notebooks](term/notebooks.md)
-- [Dimensional Modeling](term/dimensional%20modeling.md)
 - [Declarative vs Imperative](term/declarative.md)
-[]()
-<—-
-- [OLTP](term/oltp%20(online%20transactional%20processing).md) vs [OLAP](term/olap%20(online%20analytical%20processing).md)
-- [[term/ata modeling]]
+
+<!--
 - [[Batch processing]] vs [[Streaming Processing]]
 - [[Indexing]]
 - [[Relational Database]] vs [[NoSQL Database]]
