@@ -10,15 +10,15 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        # with:
-        #   fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Checkout python
-        uses: actions/checkout@v2
-      # Setup steps
-      - uses: actions/setup-python@v2
         with:
-          python-version: "3.9.11"
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      # - name: Checkout python
+      #   uses: actions/checkout@v2
+      # # Setup steps
+      # - uses: actions/setup-python@v2
+      #   with:
+      #     python-version: "3.9.11"
 
 #         # hack to have lower-case links instead e.g. instead of term/Apache-Avro we have term/apache-avro
 #       - name: Convert links of terms to lower case
