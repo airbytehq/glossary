@@ -7,4 +7,4 @@ Incremental synchronization is a process which efficiently copies data to a dest
 
 However, without special consideration, records that have been deleted in the source system will not be propagated to the destination as they will never appear in the results from such a query. This may be addressed by [Soft Deletes](term/soft%20delete.md) or by making use of [CDC replication](https://airbyte.com/blog/change-data-capture-definition-methods-and-benefits).
 
-Read more on [Incremental data synchronization between Postgres databases](https://airbyte.com/tutorials/incremental-data-synchronization).
+Read more on [Incremental data synchronization between Postgres databases](https://airbyte.com/tutorials/incremental-data-synchronization) or see related [Full Refresh Synchronization](term/full%20refresh%20synchronization.md).
