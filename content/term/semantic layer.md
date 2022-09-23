@@ -1,5 +1,5 @@
 ---
-title: "What is Semantic Layer"
+title: "What is a Semantic Layer"
 tags:
 - data engineering
 aliases:
