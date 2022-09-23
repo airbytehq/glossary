@@ -10,10 +10,13 @@
 html {
   scroll-behavior: smooth;
   &:lang(ar) {
-    & p, & h1, & h2, & h3, article {
+    & p, & h1, & h2, & h3, article, header {
       direction: rtl;
       text-align: right;
     }
+  }
+  & footer > p {
+    text-align: center !important;
   }
 }
 
@@ -224,7 +227,7 @@ article {
 
   & > li {
     display: inline-block;
-    margin: 0.4em 0;
+    margin: 0.4em 0.2em;
   }
 
   & > li > a {
