@@ -1,5 +1,5 @@
 ---
-title: "What is Data Contract?"
+title: "What is a Data Contract?"
 tags:
 - data engineering
 ---
