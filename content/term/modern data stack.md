@@ -14,5 +14,6 @@ The goal of an MDS is to get data insight with the best suitable tools for each 
 >
 > There is already a new term [ngods (new generation open-source data stack)](https://blog.devgenius.io/modern-data-stack-demo-5d75dcdfba50). Or *DataStack 2.0* in Dagster's recent [blog post](https://dagster.io/blog/evolution-iq-case-study).
 
+## The Future of MDS
 If we look a little in the future, Barr Moses illustrates in her article [What's In Store For The Future Of The Modern Data Stack?](https://www.montecarlodata.com/blog-the-future-of-the-modern-data-stack/) more features such as data sharing, universal [Data Governance](term/data%20governance.md), [Data Lake](term/data%20lake.md), and [Data Warehouse](term/data%20warehouse.md) equalized, and a newer evolution of predictive analysis:
 ![](images/future-modern-data-stack.png)

@@ -14,7 +14,7 @@ Because everyone has different definitions of “active” users or “paying”
 
 A sub-layer of the semantic layer is the [Metrics Layer](term/metrics%20layer.md). 
 
-Read more on [The Rise of the Semantic Layer]() or other fascinating reads on the topic:
+Read more on [The Rise of the Semantic Layer](https://airbyte.com/blog/the-rise-of-the-semantic-layer-metrics-on-the-fly) or other fascinating reads on the topic:
 -   [Down the Semantic Rabbit Hole](https://jpmonteiro.substack.com/p/down-the-semantic-rabbit-hole)
 -   [The Missing Piece of the Modern Data Stack](https://benn.substack.com/p/metrics-layer) 
 -   [Deep Dive: What The Heck Is the Metrics Layer](https://pedram.substack.com/p/what-is-the-metrics-layer)

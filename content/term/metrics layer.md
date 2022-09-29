@@ -11,7 +11,7 @@ aliases:
 
 A metrics layer sometimes also called metrics store, includes a specification of metrics such as [Measures](term/metric.md) and [dimensions](term/dimensions.md). Additionally, it can contain model parsing from files (mostly [YAML](term/yaml.md) and APIs to create and execute metric logic; some include a cache layer. A Metrics Layers encourages us to enforce the [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) (Do not repeat yourself) principle by defining it once and population it to any BI tools used or integrated into internal applications or processes.
 
-Read more on [Semantic Layer](term/semantic%20layer.md) or [The Rise of the Semantic Layer]().
+Read more on [Semantic Layer](term/semantic%20layer.md) or [The Rise of the Semantic Layer](https://airbyte.com/blog/the-rise-of-the-semantic-layer-metrics-on-the-fly).
 
 
 ‍
