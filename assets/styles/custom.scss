@@ -10,16 +10,18 @@
     --lightgray: #E8E8ED;
     --outlinegray: #D9D9E0;
     --million-progress-bar-color: var(--secondary);
+    --callout-info-accent: #67DAE1 !important;
 }
 
 [saved-theme="dark"] {
     --light: #0A0A23 !important;
     --dark: #fff !important;
-    --secondary: #433BFB !important; //#625eff !important; // #ff6a4d !important;
-    --visited: #615EFF !important;
+    --secondary: #615EFF !important; //#625eff !important; // #ff6a4d !important;
+    --visited: #7F7EFF !important;
     --tertiary: #FF6A4D !important;
-    --primary: #615EFF !important;
+    --primary: #7F7EFF !important;
     --gray: #fff !important;
     --lightgray: #262963 !important;
     --outlinegray: #2D3270 !important;
+    --callout-info-accent: #00A5B5 !important;
 }
