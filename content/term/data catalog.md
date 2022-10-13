@@ -12,5 +12,5 @@ An interesting read about the beginning of the Data Catalog is explained in the 
 See a High-Level Feature Comparison by the [Awesome Data Discovery and Observability](https://github.com/opendatadiscovery/awesome-data-catalogs) list on GitHub (check out the link for more):
 ![](images/data-catalog-feature-comparison.png)
 
-Or a great overview by Sarah Krasnik on [Choosing a Data Catalog](https://sarahsnewsletter.substack.com/p/choosing-a-data-catalog) :
+Or a great overview by Sarah Krasnik on [Choosing a Data Catalog](https://sarahsnewsletter.substack.com/p/choosing-a-data-catalog):
 ![](images/data-catalog-overview-sarah.png)
