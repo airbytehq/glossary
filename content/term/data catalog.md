@@ -10,7 +10,7 @@ A Data Catalog is a centralized store where all metadata data about your data i
 An interesting read about the beginning of the Data Catalog is explained in the 2017 published paper about a [Data Context Service](http://cidrdb.org/cidr2017/papers/p111-hellerstein-cidr17.pdf).  
 
 See a High-Level Feature Comparison by the [Awesome Data Discovery and Observability](https://github.com/opendatadiscovery/awesome-data-catalogs) list on GitHub (check out the link for more):
-![](images/data-catalog-feature-comparison.png)
+![](images/data-catalog-feature-comparison2.png)
 
 Or a great overview by Sarah Krasnik on [Choosing a Data Catalog](https://sarahsnewsletter.substack.com/p/choosing-a-data-catalog):
 ![](images/data-catalog-overview-sarah.png)
