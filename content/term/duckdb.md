@@ -12,14 +12,14 @@ It's designed to work as an embedded library, eliminating the network latency yo
 > Never use files (CSV, Excel, Parquet) anymore. Use DuckDB with schema, types, and SQL interface, and super fast. 
 
 Use-Cases:
-- Ulta fast analytical use-case locally. E.g., the Taxi example includes a 10 Year, 1.5 Billion row Taxi data example that still works on a laptop. See [Fast Analysis with DuckDB + Pyarrow](https://tech.gerardbentley.com/python/data/intermediate/2022/04/26/holy-duck.html) .
+- Ulta fast analytical use-case locally. E.g., the Taxi example includes a 10 Year, 1.5 Billion row Taxi data example that still works on a laptop. See benchmarks below. 
 - It can be used as an SQL wrapper with zero copies (on top of parquets in S3). 
 - Bring your **data to the users** instead of having big roundtrips and latency by doing REST calls. Instead, you can put data inside the client. You can do 60 frames per second as data is where the query is. 
 
 [MotherDB](https://motherduck.com/) is the managed service around DuckDB that lets you scale from a local DB to a cloud DB and hybrid—done by one of [Google BigQuery](Google%20BigQuery) creators or developers such as [[Jordan Tigani]]. Check his discussion on the [Analytics Engineering Podcast about The Personal Data Warehouse](https://open.spotify.com/episode/3CmeFOuIOg91xApdjbWqey?si=CmelGaxBTZ-Z-BR3fvMjmg&utm_source=copy-link&nd=1). The stimulating conversation around connected WebAssembly, e.g., Is an application compiled to C code, which is super fast. E.g., Figma is using that, which would otherwise never work in a browser. 
 
-## Good Benchmarks
-- [[Holy 🦆uck! Fast Analysis With DuckDB + Pyarrow  Gar’s Bar]] - 2022
+## Benchmarks
+- [Fast Analysis With DuckDB + Pyarrow](https://tech.gerardbentley.com/python/data/intermediate/2022/04/26/holy-duck.html) - 2022
 - [Tweet](https://mobile.twitter.com/medriscoll/status/1554698141789614081): Impressively fast, collaborative exploratory data analytics over a 20+ million row data set, hosted in the cloud with Drifting’s Jamsocket + Rill Data + DuckDB - 2022
 - [Taking DuckDB for a spin | Uwe’s Blog](https://uwekorn.com/2019/10/19/taking-duckdb-for-a-spin.html) - 2019
 
