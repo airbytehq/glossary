@@ -27,7 +27,7 @@ Check out [Rill Data](https://www.rilldata.com/), a [BI tool](term/business%20in
 
 ## Example Projects
 - [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html): A fast, free, and open-source Modern Data Stack (MDS) can now be fully deployed on your laptop or to a single machine using the combination of DuckDB, Meltano, dbt, and Apache Superset. 
-- [Fully Featured Project Example](https://github.com/dagster-io/dagster/blob/master/examples/project_fully_featured/README.md) (s3, dbt, parquet, and snowflake) reading from Hackernews orchestrated with dagster.
+- [Fully Featured Project Example](https://github.com/dagster-io/dagster/blob/master/examples/project_fully_featured/) (s3, dbt, parquet, and snowflake) reading from Hackernews orchestrated with dagster.
 
 ## Tech and Papers
 It ships as an [amalgamation](https://www.sqlite.org/amalgamation.html) build - a single giant C++ file (SQLite is a single giant C file). And it's also backed up by some strong computer science. It's by the academic researchers behind MonetDB and includes implementations of a bunch of interesting papers:
