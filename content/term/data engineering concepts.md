@@ -10,7 +10,7 @@ Some core concepts we are going to explore:
 - [Storage Layer](term/storage%20layer%20object%20store.md) vs [Data Lake File Format](term/data%20lake%20file%20format.md) vs [Data Lake Table Format](term/data%20lake%20table%20format.md)
 - [Data Catalog](term/data%20catalog.md)
 - [Modern Data Stack](term/modern%20data%20stack.md) 
-- [ELT](term/elt.md) vs [ETL](term/etl.md)
+- [ELT](term/elt.md) vs [ETL](term/etl.md) vs [EtLT](term/etlt.md)
 - [Functional Data Engineering](term/functional%20data%20engineering.md)
 - [Metrics Layer](term/metrics%20layer.md) vs [Semantic Warehouse](term/semantic%20warehouse.md) vs [Data Virtualization](term/data%20virtualization.md)
 	- [Metrics](term/metric.md), [Key Performance Indicator (KPI)](term/key%20performance%20indicator%20(kpi).md)
