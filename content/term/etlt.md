@@ -6,4 +6,6 @@ tags:
 ---
 [EtLT](https://airbyte.com/blog/etlt-gdpr-compliance) refers to Extract, “tweak”, Load, Transform. This is an approach to data integration – in which a very light “tweak” (small “t”) transformation is done on the data before it reaches the destination, as demonstrated in the following image:
 
-![](images/EtLT.png)
+![](images/etlt-extract-tweak-load-transform.png)
+
+See more on [EtLT for improved GDPR compliance](https://airbyte.com/blog/etlt-gdpr-compliance).
