@@ -4,7 +4,7 @@ tags:
 - data engineering
 - concepts
 ---
-EtLT refers to Extract, “tweak”, Load, Transform, and can be thought of an extension to the [ELT](https://glossary.airbyte.com/term/elt/) approach to data integration. 
+EtLT refers to Extract, “tweak”, Load, Transform, and can be thought of an extension to the [ELT](term/elt.md) approach to data integration. 
 
 When compared to ELT, the EtLT approach incorporates an additional light “tweak” (small “t”) transformation, which is done on the data after it is extracted from the source and before it is loaded into the destination. This is demonstrated in the following image:
 
