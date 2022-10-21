@@ -3,9 +3,10 @@ title: "What is a Data Contract?"
 tags:
 - data engineering
 ---
+
 Data Contracts are API-like agreements between software/data engineers who own services and data consumers that understand how the business works. The goal is to generate well-modeled, high-quality, trusted, real-time data.
 
-It's an **abstract** that allows engineers to decouple their databases and services from analytics and ML requirements. It will avoid production-breaking incidents when modifying the schema as they are validated and enforced.
+It's an **abstraction** that allows engineers to decouple their databases and services from analytics and ML requirements. It will avoid production-breaking incidents when modifying the schema as they are validated and enforced.
 
 ![](images/data-contract.png)
 Illustration by Chad Sanderson on [The Rise of Data Contracts - by Chad Sanderson](https://dataproducts.substack.com/p/the-rise-of-data-contracts)
@@ -21,6 +22,7 @@ Interestingly, the differentiation to [Data Mesh](term/data%20mesh.md) is an org
 Also, data contracts are a form of [Data Governance](term/data%20governance.md). This term is very vague and gets more concrete with explicit contracts. You can also use [Great Expectations](https://greatexpectations.io/) to set expectations for your data, which I believe is a great way to start.
 
 ## From the Discussion on YouTube w/ Chad Sanderson vs Ethan Aaron
+
 Chad Sanderson says in [Data Contract Battle Royale w/ Chad Sanderson vs Ethan Aaron - YouTube](https://youtu.be/4BEpYAp3Qu4) :
 - It's just a database version of a real-world contract. 
 - A real-world contract is just an agreement between two parties where:
