@@ -3,13 +3,13 @@ title: "What is ETL?"
 tags:
 - data engineering
 ---
-ETL (extract transform and load) is a process for moving data from one system to another. It involves reading data (extract) from one system, modifying the data (transform), and then sending it (load) to a destination system. The ETL paradigm emerged in the 1970s. 
+ETL (Extract, Transform, and Load) is a paradigm for moving data from one system to another. It involves reading data (Extract) from one system, modifying the data (Transform), and then sending it (Load) to a destination system. The ETL paradigm emerged in the 1970s. 
 
-A key feature of the ETL approach is that data is transformed before being sent to the destination, as demonstrated in the following image:
+A key feature of ETL is that data is transformed before being sent to the destination, as demonstrated in the following image:
 
 ![](images/etl-tool.png)
 
-However in recent years, the preferred data movement paradigm has shifted to the [ELT](term/elt.md). The ELT philosophy dictates that data should be untouched – apart from minor cleaning and filtering – as it moves through the extraction and loading stages so that the raw data is always accessible in the destination [Data Warehouse](term/data%20warehouse.md).
+However in recent years, the preferred data movement paradigm has shifted to the [ELT](term/elt.md). The ELT philosophy dictates that data should be untouched – apart from minor cleaning and filtering – as it moves through the extraction and loading stages so that the raw data is always accessible in the destination [Data Warehouse](term/data%20warehouse.md). See [ETL vs ELT](term/etl%20vs%20elt.md) for a comparison of these approaches.
 
 
 ## ETL is Changing
@@ -19,4 +19,3 @@ Historically **ETL was once preferred** over ELT for the following **no-longe
 - ETL could achieve cost savings by removing unwanted data before sending it to the destination –  however, with the plummeting cost of cloud-based computation and storage the value of this proposition is greatly reduced. 
 - Because ETL transforms data before it is stored, it avoids the complexity of transforming data _after_ sending it to the destination – however, new tools such as [[dbt]] (data build tool) make it preferable and easy to transform data in the destination.
 
-See also [ETL vs ELT](term/etl%20vs%20elt.md).
