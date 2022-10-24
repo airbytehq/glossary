@@ -3,7 +3,7 @@ title: "ETL vs. ELT"
 tags:
 - data engineering
 ---
-[ETL](term/etl.md) (Extract Transform and Load) and [ELT](term/elt.md) (Extract Load and Transform) are two paradigms for moving data from one system to another. The main difference between them is that when an ETL approach is used, data is transformed before it is loaded into a destination system. On the other hand, in the case of ELT, any required transformations are done after the data has been written to the destination and are _then_ done _inside_ the destination. The difference between these approaches is easier to understand by a visual comparison of the two approaches. 
+[ETL](term/etl.md) (Extract, Transform, and Load) and [ELT](term/elt.md) (Extract, Load, and Transform) are two paradigms for moving data from one system to another. The main difference between them is that when an ETL approach is used, data is transformed before it is loaded into a destination system. On the other hand, in the case of ELT, any required transformations are done after the data has been written to the destination and are _then_ done _inside_ the destination -- often by executing SQL commands. The difference between these approaches is easier to understand by a visual comparison of the two approaches. 
 
 The image below demonstrates the ETL approach to [data integration](https://airbyte.com/blog/data-integration):
 
