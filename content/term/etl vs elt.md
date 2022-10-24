@@ -3,7 +3,17 @@ title: "ETL vs. ELT"
 tags:
 - data engineering
 ---
-[ETL](term/etl.md) (Extract Transform and Load) and [ELT](term/elt.md) (Extract Load and Transform). ETL was originally used for [Data Warehousing](term/data%20warehouse.md) and ELT for creating a [Data Lake](term/data%20lake.md). The key difference is that the data schema and the transformation need to be done before the data lands at the destination.
+[ETL](term/etl.md) (Extract Transform and Load) and [ELT](term/elt.md) (Extract Load and Transform) are two paradigms for moving data from one system to another. The main difference between them is that when an ETL approach is used, data is transformed before it is loaded into a destination system. On the other hand, in the case of ELT, any required transformations are done after the data has been written to the destination and are _then_ done _inside_ the destination. The difference between these approaches is easier to understand by a visual comparison of the two approaches. 
+
+The image below demonstrates the ETL approach to data integration:
+
+![](images/etl-tool.png)
+
+While the following image demonstrates the ELT approach to data integration:
+
+![](images/elt-tool.png)
+
+ETL was originally used for [Data Warehousing](term/data%20warehouse.md) and ELT for creating a [Data Lake](term/data%20lake.md). 
 
 ## Disadvantages of ETL compared to ELT
 
