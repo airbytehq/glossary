@@ -3,13 +3,13 @@ title: "What is ETL?"
 tags:
 - data engineering
 ---
-ETL (extract transform and load) is a process for moving data from one system to another. It involves reading data (extracting) from one system, modifying the data (transform), and then sending it (loading) to a destination system. The ETL paradigm emerged in the 1970s. 
+ETL (extract transform and load) is a process for moving data from one system to another. It involves reading data (extract) from one system, modifying the data (transform), and then sending it (load) to a destination system. The ETL paradigm emerged in the 1970s. 
 
 A key feature of the ETL approach is that data is transformed before being sent to the destination, as demonstrated in the following image:
 
 ![](images/etl-tool.png)
 
-However in recent years, the preferred data movement paradigm has shifted to the [ELT](term/elt.md) paradigm. The ELT philosophy dictates that data should be untouched – apart from minor cleaning and filtering – as it moves through the extraction and loading stages so that the raw data is always accessible in the destination [Data Warehouse](term/data%20warehouse.md).
+However in recent years, the preferred data movement paradigm has shifted to the [ELT](term/elt.md). The ELT philosophy dictates that data should be untouched – apart from minor cleaning and filtering – as it moves through the extraction and loading stages so that the raw data is always accessible in the destination [Data Warehouse](term/data%20warehouse.md).
 
 
 ## ETL is Changing
