@@ -3,7 +3,7 @@ title: "What is ELT?"
 tags:
 - data engineering
 ---
-An ELT (extract load and transform) pipeline is used to move raw data from a source to a destination. If data enrichment and transformation are required, these operations occur inside the destination [Data Warehouse](term/data%20warehouse.md). This is in contrast to more traditional [ETL](term/etl.md) tools, which transform the data before it arrives at the destination. The shift from ETL tools to ELT tools has been made possible thanks to the plummeting cost of cloud-based computation and storage, and the appearance of cloud-based data warehouses like Redshift, BigQuery, or Snowflake.
+ELT (Extract, Load, and Transform) is a [data integration](https://airbyte.com/blog/data-integration) approach that extracts (E) data from a source system, and loads (L) raw data into a destination system before it transforms (T) the data. In other words, in the ELT approach transformation (T) of the data is done _within_ the destination [Data Warehouse](term/data%20warehouse.md) after data has been loaded. This is in contrast to the more traditional [ETL](term/etl.md) data integration approach, in which data is transformed before it arrives at the destination. The shift from the ETL paradigm to the ELT paradigm has been made possible thanks to the plummeting cost of cloud-based computation and storage, and the appearance of cloud-based data warehouses like Redshift, BigQuery, or Snowflake. See [ETL vs ELT](term/etl%20vs%20elt.md) for a more detailed comparision of these approaches.
 
 The following image demonstrates the ELT approach to data integration:
 
