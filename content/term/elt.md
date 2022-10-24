@@ -9,7 +9,7 @@ ELT is in contrast to the more traditional [ETL](term/etl.md) data integration a
 
 The shift from the ETL paradigm to the ELT paradigm has been made possible thanks to the plummeting cost of cloud-based computation and storage, and the appearance of cloud-based data warehouses like Redshift, BigQuery, or Snowflake. 
 
-The following image demonstrates the ELT approach to data integration -- in this diagram [dbt](https://docs.getdbt.com/docs/introduction) creates/manages the SQL that is used for transforming the data in the destination:
+The following image demonstrates the ELT approach to data integration -- in this diagram [dbt](https://docs.getdbt.com/docs/introduction) creates and manages the SQL that is used for transforming the data in the destination:
 
 ![](images/elt-tool.png)
 
