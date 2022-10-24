@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "a2d31072d553b720",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2656831cd4400f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0eea49a95c8a3b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "term/duckdb.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0efd1808c75732f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "term/pandas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a94ef427a70b8b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "term/rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "58d1ce8bd454efd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "5986ce4dfaa92de3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4d452c6215790be",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "58c907766c5862ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"rise of the\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1d2210d3dc6c0396",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282
+  },
+  "right": {
+    "id": "1779bd3879ef68a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "bec946ce4c2d2733",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfb7133b365667c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "term/duckdb.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e0e9acda5366c838",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "term/duckdb.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6381ed03e0faa6f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9848e6b55bd4c5bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c33dc78d870da96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "term/duckdb.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "d0eea49a95c8a3b0",
+  "lastOpenFiles": [
+    "term/in-memory format.md",
+    "term/etlt.md",
+    "term/data engineering concepts.md",
+    "images/etlt-extract-tweak-load-transform.png",
+    "term/duckdb.md",
+    "term/data engineering.md",
+    "term/apache spark.md",
+    "term/pandas.md",
+    "term/rust.md",
+    "term/business intelligence tools.md"
+  ]
+}
