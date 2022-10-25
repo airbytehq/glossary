@@ -4,7 +4,7 @@ tags:
 - data engineering
 ---
 
-## What is data transformation
+## Definition
 Data transformation is the process of converting data from one format into a different format. Reasons for doing this could be to optimize the data for a different use case than it was originally intended for, or to meet the requirements for storing data in a different system. Data transformation may involve steps such as cleansing, normalizing, structuring, validation, sorting, joining, or enriching data. 
 
 ## How is data transformation done
