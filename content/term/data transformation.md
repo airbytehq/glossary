@@ -8,7 +8,7 @@ tags:
 Data transformation is the process of converting data from one format into a different format. Reasons for doing this could be to optimize the data for a different use case than it was originally intended for, or to meet the requirements for storing data in a different system. Data transformation may involve steps such as cleansing, normalizing, structuring, validation, sorting, joining, or enriching data. 
 
 ## How is data transformation done
-Data is often transformed using an [ETL (Extract, Transform, Load)](term/etl.md) or [ELT (Extract, Load, Transform)](term/elt.md) approach. See [ETL vs. ELT](term/etl vs elt.md) for a comparison of these two approaches.  
+Data is often transformed using an [ETL (Extract, Transform, Load)](term/etl.md) or [ELT (Extract, Load, Transform)](term/elt.md) approach. See [ETL vs. ELT](term/etl\ vs\ elt.md) for a comparison of these two approaches.  
 
 Additionally, a hybrid approach has recently emerged which is known as [EtLT (Extract, “tweak”, Load, Transform)](term/etlt.md). This combines aspects of both ETL and ELT. 
 
