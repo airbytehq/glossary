@@ -32,7 +32,7 @@ For example, in order to efficiently make use of the unstructured data given in 
 |Record 1| "Bob" | 29 |
 |Record 2| "Mary"| 30 |
 
-Storing the data in a structured manner makes it much more efficient to query the data. For example, after structuring the data it is possible to easily and efficientl execute queries
+Storing the data in a structured manner makes it much more efficient to query the data. For example, after structuring the example data it is possible to easily and efficientl execute queries by name or by age. 
 
 
   
