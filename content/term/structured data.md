@@ -8,6 +8,9 @@ tags:
 Structured data refers to data that has been formatted into a well-defined schema. An example would be data that is stored with precisely defined columns in a relational database or excel spreadsheet. Examples of structured fields could be age, name, phone number, credit card numbers or address. Storing data in a structured format allows it to be easily understood and queried by machines and with tools such as  SQL.
 
 ## Example of structure data
+
+Below is an example of structured data as it would appear in a database:
+
 |         |  **age**| **name**| **phone**| 
 |---------|-----|------|-----|
 |Record 1| 29 | Bob | 123-456 |
