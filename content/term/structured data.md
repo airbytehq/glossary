@@ -63,7 +63,7 @@ JSON data embedded inside of a string, is an example of semi-structured data. Th
 
 ## Structuring of semi-structured data
 
-It is often relatively straightforward to convert semi-structured data into structured data. For example, if normalization is enabled then Airbyte will automatically convert the JSON from the previous example into a table that looks as follows:  
+It is often relatively straightforward to convert semi-structured data into structured data. For example, if normalization is enabled then Airbyte will automatically convert the JSON stored in the `_airbyte_data` field in the table above, into a table that looks as follows:  
 
 |               |  **id** | **name** |
 |---------| -----------|---- |
