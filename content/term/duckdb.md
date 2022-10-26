@@ -12,7 +12,7 @@ It's designed to work as an embedded library, eliminating the network latency yo
 > With DuckDB, we no longer need to use plain files (CSV, Excel, Parquet). DuckDB supports schema, types, and SQL interface and is super fast. 
 
 ## Use-Cases
-- Ulta fast analytical use-case locally. E.g., the Taxi example includes a 10 Year, 1.5 Billion row Taxi data example that still works on a laptop. See benchmarks below. 
+- Ultra-fast analytical use-case locally. E.g., the Taxi example includes a 10 Year, 1.5 Billion row Taxi data example that still works on a laptop. See benchmarks below. 
 - It can be used as an SQL wrapper with zero copies (on top of parquets in S3). 
 - Bring your **data to the users** instead of having big roundtrips and latency by doing REST calls. Instead, you can put data inside the client. You can do 60 frames per second as data is where the query is.
 - DuckDB on Kubernetes for a zero-copy layer to read S3 in the [Data Lake](https://glossary.airbyte.com/term/data-lake)! Inspired by [this](https://twitter.com/Ubunta/status/1584907743391272961) Tweet. The cheapest and fastest option to get started.
@@ -39,7 +39,7 @@ It ships as an [amalgamation](https://www.sqlite.org/amalgamation.html) build - 
 -   [DuckDB: an Embeddable Analytical Database](https://www.duckdb.org/pdf/SIGMOD2019-demo-duckdb.pdf) (SIGMOD 2019 Demo)
 
 From [Why DuckDB](https://duckdb.org/why_duckdb):
-> DuckDB contains a **columnar-vectorized query execution engine**, where queries are still interpreted, but a large batch of values (a “vector”) is processed in one operation. This dramatically reduces overhead in traditional systems such as PostgreSQL, MySQL or SQLite, which process each row sequentially. Vectorized query execution leads to far better performance in OLAP queries.
+> DuckDB contains a **columnar-vectorized query execution engine**, where queries are still interpreted, but a large batch of values (a “vector”) is processed in one operation. This dramatically reduces overhead in traditional systems such as PostgreSQL, MySQL, or SQLite, which process each row sequentially. Vectorized query execution leads to far better performance in OLAP queries.
 
 
 ## Python API and Handling Data
