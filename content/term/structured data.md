@@ -16,6 +16,8 @@ Below is an example of structured data as it would appear in a database:
 |Record 1| 29 | Bob | 123-456 |
 |Record 2| 30 | Sue | 789-123 | 
 
+It may seem that all data is structured, but this is not always the case -- data can be unstructured, or semi-structured. The differences are best understood by example, and are discussed in the following sections. 
+
 ## Structured data vs. unstructured data
 
 Structured data can be contrasted with unstructured data, which does not conform to a data model and has no easily identifiable structure. Unstructured data cannot be easily used by programs, and is difficult to analyze. Examples of unstructured data could be the contents of an email, contents of a word document, data from social media, photos, videos, survey results, etc.   
