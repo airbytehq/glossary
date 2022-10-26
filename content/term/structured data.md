@@ -50,7 +50,7 @@ A query such as this would be expensive and/or more difficult to execute on unst
 
 ## Structured data vs. semi-structured data
 
-Structured data can also be contrasted with semi-structured data, which lacks a rigid structure and does not conform directly to a data model. However, semi-structured data has tags and elements that describe how the data is stored. 
+Structured data can also be contrasted with [semi-structured data](term/semi-structured%20data.md), which lacks a rigid structure and does not conform directly to a data model. However, semi-structured data has tags and elements that describe the data. 
 
 Examples of semi-structured data are JSON or XML files. Semi-structured data often contains enough information that it can be relatively easily converted into structured data. 
 
