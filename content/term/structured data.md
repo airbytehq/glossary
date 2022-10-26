@@ -20,7 +20,7 @@ It may seem that all data is structured, but this is not always the case -- data
 
 ## Structured data vs. unstructured data
 
-Structured data can be contrasted with unstructured data, which does not conform to a data model and has no easily identifiable structure. Unstructured data cannot be easily used by programs, and is difficult to analyze. Examples of unstructured data could be the contents of an email, contents of a word document, data from social media, photos, videos, survey results, etc.   
+Structured data can be contrasted with [unstructured data](term/unstructured%20data.md), which does not conform to a data model and has no easily identifiable structure. Unstructured data cannot be easily used by programs, and is difficult to analyze. Examples of unstructured data could be the contents of an email, contents of a word document, data from social media, photos, videos, survey results, etc.   
 
 An simple example of unstructured data is a string that contains interesting information inside of it, but that has not been formatted into a well defined schema. An example is given below:
 
