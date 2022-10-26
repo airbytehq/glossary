@@ -15,6 +15,7 @@ It's designed to work as an embedded library, eliminating the network latency yo
 - Ulta fast analytical use-case locally. E.g., the Taxi example includes a 10 Year, 1.5 Billion row Taxi data example that still works on a laptop. See benchmarks below. 
 - It can be used as an SQL wrapper with zero copies (on top of parquets in S3). 
 - Bring your **data to the users** instead of having big roundtrips and latency by doing REST calls. Instead, you can put data inside the client. You can do 60 frames per second as data is where the query is.
+- DuckDB on Kubernetes for a zero-copy layer to read S3 in the [Data Lake](https://glossary.airbyte.com/term/data-lake)! Inspired by [this](https://twitter.com/Ubunta/status/1584907743391272961) Tweet. The cheapest and fastest option to get started.
 
 Check out [Rill Data](https://www.rilldata.com/), a [BI tool](term/business%20intelligence%20tools.md) that delivers sub-second interactivity because it’s backed by DuckDB (and [Druid](Apache%20Druid) for our enterprise-grade cloud services).
 
@@ -25,7 +26,6 @@ Check out [Rill Data](https://www.rilldata.com/), a [BI tool](term/business%20in
 - [SQL on Python, part 1: The simplicity of DuckDB](https://www.orchest.io/blog/sql-on-python-part-1-the-simplicity-of-duckdb): How to use DuckDB to analyze 4.6+ million mentions of climate change on Reddit
 - [Tweet](https://mobile.twitter.com/medriscoll/status/1554698141789614081): Impressively fast, collaborative exploratory data analytics over a 20+ million row data set, hosted in the cloud with Drifting’s Jamsocket + Rill Data + DuckDB - 2022
 - [Taking DuckDB for a spin | Uwe’s Blog](https://uwekorn.com/2019/10/19/taking-duckdb-for-a-spin.html) - 2019
-- DuckDB on Kubernetes for a zero-copy layer to read S3 in the [Data Lake](https://glossary.airbyte.com/term/data-lake)! Inspired by [this](https://twitter.com/Ubunta/status/1584907743391272961) Tweet. The cheapest and fastest option to get started.
 
 ## Example Projects
 - [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html): A fast, free, and open-source Modern Data Stack (MDS) can now be fully deployed on your laptop or to a single machine using the combination of DuckDB, Meltano, dbt, and Apache Superset. 
