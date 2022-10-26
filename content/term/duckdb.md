@@ -25,11 +25,13 @@ Check out [Rill Data](https://www.rilldata.com/), a [BI tool](term/business%20in
 - [SQL on Python, part 1: The simplicity of DuckDB](https://www.orchest.io/blog/sql-on-python-part-1-the-simplicity-of-duckdb): How to use DuckDB to analyze 4.6+ million mentions of climate change on Reddit
 - [Tweet](https://mobile.twitter.com/medriscoll/status/1554698141789614081): Impressively fast, collaborative exploratory data analytics over a 20+ million row data set, hosted in the cloud with Drifting’s Jamsocket + Rill Data + DuckDB - 2022
 - [Taking DuckDB for a spin | Uwe’s Blog](https://uwekorn.com/2019/10/19/taking-duckdb-for-a-spin.html) - 2019
+- DuckDB on Kubernetes for a zero-copy layer to read S3 in the [Data Lake](https://glossary.airbyte.com/term/data-lake)! Inspired by [this](https://twitter.com/Ubunta/status/1584907743391272961) Tweet. The cheapest and fastest option to get started.
 
 ## Example Projects
 - [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html): A fast, free, and open-source Modern Data Stack (MDS) can now be fully deployed on your laptop or to a single machine using the combination of DuckDB, Meltano, dbt, and Apache Superset. 
 - [Fully Featured Project Example](https://github.com/dagster-io/dagster/blob/master/examples/project_fully_featured/) (s3, dbt, parquet, and snowflake) reading from Hackernews orchestrated with dagster.
 - [Data Engineering in 2022: Exploring dbt with DuckDB](https://rmoff.net/2022/10/20/data-engineering-in-2022-exploring-dbt-with-duckdb/):  Step-by-step guide on using dbt and DuckDB.
+- [Build a poor man’s data lake from scratch with DuckDB](https://dagster.io/blog/duckdb-data-lake): Full fleshed example by Dagster.
 
 ## Tech and Papers
 It ships as an [amalgamation](https://www.sqlite.org/amalgamation.html) build - a single giant C++ file (SQLite is a single giant C file). And it's also backed up by some strong computer science. It's by the academic researchers behind MonetDB and includes implementations of a bunch of interesting papers:
