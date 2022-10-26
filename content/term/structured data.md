@@ -5,11 +5,13 @@ tags:
 - concepts
 ---
 
-Structured data refers to data that has been formatted into a well-defined schema. One example would be data that is stored with precisely defined columns in a relational database or excel spreadsheet. Examples of structured fields are age, name, phone number, credit card numbers or address. Storing data in a structured format allows it to be easily understood and queried with tools such as  SQL.
+Structured data refers to data that has been formatted into a well-defined schema. An example would be data that is stored with precisely defined columns in a relational database or excel spreadsheet. Examples of structured fields could be age, name, phone number, credit card numbers or address. Storing data in a structured format allows it to be easily understood and queried by machines and with tools such as  SQL.
 
-Structured data can be contrasted with unstructured data, which does not conform to a data model and has no easily identifiable structure. Unstructured data cannot be easily used by programs, and is difficult to analyze. Examples of unstructured data could be the contents of an email, a word document, data from social media, photos, videos, survey results, etc.   
+Structured data can be contrasted with unstructured data, which does not conform to a data model and has no easily identifiable structure. Unstructured data cannot be easily used by programs, and is difficult to analyze. Examples of unstructured data could be the contents of an email, contents of a word document, data from social media, photos, videos, survey results, etc.   
 
-Structured data can also be contrasted with semi-structured data, which lacks a rigid structure and does not conform directly to a data model. However, it has tags and elements that describe how the data is stored. Examples of semi-structured are JSON or XML files. Semi-structured data often contains enough information that it can be relatively easily converted into structured data. 
+Structured data can also be contrasted with semi-structured data, which lacks a rigid structure and does not conform directly to a data model. However, semi-structured data has tags and elements that describe how the data is stored. 
+
+Examples of semi-structured data are JSON or XML files. Semi-structured data often contains enough information that it can be relatively easily converted into structured data. 
 
 ## Example of unstructured data
 
@@ -23,7 +25,9 @@ An simple example of unstructured data is a string that contains interesting inf
 
 ## An example of adding structure to unstructured data
 
-Converting unstructured data into structured data can be done during the data transformation stage in an ETL or ELT process.  For example, in order to efficiently process the unstructured data given in the previous example, it may desirable to transform this data into additional/new fields, and store it as structured data such as the following:
+Converting unstructured data into structured data can be done during the [data transformation](term/data%20transformation.md) stage in an [ETL](term/etl.md) or [ELT](term/elt.md) process.  
+
+For example, in order to efficiently make use of the unstructured data given in the previous example, it may desirable to transform it into structured data such as the following:
 
 |               |  **name** | **age** |
 |---------| -----------|---- |
@@ -45,8 +49,8 @@ A string containing a JSON representation such as the following is an example of
 
 |               |  **\_airbyte_data**|
 |---------| -----------|
-|Record 1| **{"id": 1, "name": "Mary X"}** |
-|Record 2|**{"id": 2, "name": "John D"}**|
+|Record 1| \"{'id': 1, 'name': 'Mary X'}\" |
+|Record 2| \"{'id': 2, 'name': 'John D'}\"|
 
 ## Adding structure to semi-structured data
 
