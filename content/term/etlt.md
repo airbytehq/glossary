@@ -2,7 +2,7 @@
 title: "What is EtLT?"
 tags:
 - data engineering
-- concepts
+- concept
 ---
 EtLT refers to Extract, “tweak”, Load, [Transform](term/data%20transformation.md), and can be thought of an extension to the [ELT](term/elt.md) approach to data integration. 
 
