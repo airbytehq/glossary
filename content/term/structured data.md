@@ -20,7 +20,7 @@ It may seem that all data is structured, but this is not always the case -- data
 
 ## Structured data vs. unstructured data
 
-Structured data can be contrasted with unstructured data, which does not conform to a data model and has no easily identifiable structure. Unstructured data cannot be easily used by programs, and is difficult to analyze. Examples of unstructured data could be the contents of an email, contents of a word document, data from social media, photos, videos, survey results, etc.   
+Structured data can be contrasted with [unstructured data](term/unstructured%20data.md), which does not conform to a data model and has no easily identifiable structure. Unstructured data cannot be easily used by programs, and is difficult to analyze. Examples of unstructured data could be the contents of an email, contents of a word document, data from social media, photos, videos, survey results, etc.   
 
 An simple example of unstructured data is a string that contains interesting information inside of it, but that has not been formatted into a well defined schema. An example is given below:
 
@@ -50,7 +50,7 @@ A query such as this would be expensive and/or more difficult to execute on unst
 
 ## Structured data vs. semi-structured data
 
-Structured data can also be contrasted with semi-structured data, which lacks a rigid structure and does not conform directly to a data model. However, semi-structured data has tags and elements that describe how the data is stored. 
+Structured data can also be contrasted with [semi-structured data](term/semi-structured%20data.md), which lacks a rigid structure and does not conform directly to a data model. However, semi-structured data has tags and elements that describe the data. 
 
 Examples of semi-structured data are JSON or XML files. Semi-structured data often contains enough information that it can be relatively easily converted into structured data. 
 
@@ -63,7 +63,7 @@ JSON data embedded inside of a string, is an example of semi-structured data. Th
 
 ## Structuring of semi-structured data
 
-It is often relatively straightforward to convert semi-structured data into structured data. For example, if normalization is enabled then Airbyte will automatically convert the JSON from the previous example into a table that looks as follows:  
+It is often relatively straightforward to convert semi-structured data into structured data. For example, if normalization is enabled then Airbyte will automatically convert the JSON stored in the `_airbyte_data` field in the table above, into a table that looks as follows:  
 
 |               |  **id** | **name** |
 |---------| -----------|---- |
