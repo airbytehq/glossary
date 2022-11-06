@@ -5,9 +5,9 @@
 <body>
 {{partial "search.html" .}}
 <div class="singlePage">
+    <article>
     <!-- Begin actual content -->
     {{partial "header.html" .}}
-    <article>
         <h1>{{ i18n "all_posts" . }}</h1>
         {{with .Params.description}}
             <p>{{.}}</p>
@@ -23,8 +23,8 @@
             {{ end }}
             {{ end }}
         </div>
-    </article>
     {{partial "contact.html" .}}
+    </article>
 </div>
 </body>
 </html>
