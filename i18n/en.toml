@@ -28,6 +28,9 @@ other = "No backlinks found"
 [home]
 other = "Home"
 
+[all_tags]
+other = "All Tags"
+
 [light_mode]
 other = "Light Mode"
 
