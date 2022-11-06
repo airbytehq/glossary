@@ -41,7 +41,7 @@ other = "Edit Source"
 other = "Interactive Graph"
 
 [search]
-other = "Search (cmd+k)"
+other = "Search"
 
 [search_icon]
 other = "Search Icon"
