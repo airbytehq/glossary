@@ -4,7 +4,7 @@ tags:
 - data engineering
 ---
 
-[DuckDB](https://duckdb.org/) is an in-process SQL [OLAP](term/olap%20(online%20analytical%20processing).md) database management system. It has strong support for SQL. DuckDB is borrowing the SQLite shell implementation. Each database is a single file on disk. It's [SQLite DB](https://www.sqlite.org) for **analytical (OLAP) workloads**, whereas SQLite is for a relational database. But it can handle vast amounts of data locally. It's the smaller, lighter version of [Apache Druid](Apache%20Druid) and other OLAP technologies.
+[DuckDB](https://duckdb.org/) is an in-process SQL [OLAP](term/olap%20(online%20analytical%20processing).md) database management system. It has strong support for SQL. DuckDB is borrowing the SQLite shell implementation. Each database is a single file on disk. It's analogous to "[SQLite](https://www.sqlite.org) for **analytical (OLAP) workloads**" (direct comparison on the [SQLite vs DuckDB paper](https://simonwillison.net/2022/Sep/1/sqlite-duckdb-paper/) here), whereas SQLite is for OLTP ones. But it can handle vast amounts of data locally. It's the smaller, lighter version of [Apache Druid](Apache%20Druid) and other OLAP technologies.
 
 It's designed to work as an embedded library, eliminating the network latency you usually get when talking to a database.
 
