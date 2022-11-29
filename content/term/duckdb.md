@@ -27,6 +27,9 @@ Check out [Rill Data](https://www.rilldata.com/), a [BI tool](term/business%20in
 - [SQL on Python, part 1: The simplicity of DuckDB](https://www.orchest.io/blog/sql-on-python-part-1-the-simplicity-of-duckdb): How to use DuckDB to analyze 4.6+ million mentions of climate change on Reddit
 - [Tweet](https://mobile.twitter.com/medriscoll/status/1554698141789614081): Impressively fast, collaborative exploratory data analytics over a 20+ million row data set, hosted in the cloud with Drifting’s Jamsocket + Rill Data + DuckDB - 2022
 - [Taking DuckDB for a spin | Uwe’s Blog](https://uwekorn.com/2019/10/19/taking-duckdb-for-a-spin.html) - 2019
+- [SQLite vs DuckDB paper](https://simonwillison.net/2022/Sep/1/sqlite-duckdb-paper/): 
+  - SQLite out-performs DuckDB on a write transactions benchmark by 10x-500x on a powerful cloud server and 2x-60x on a Raspberry Pi, for small to large databases.
+  - For analytical benchmarks using the SSB (Star Schema Benchmark) DuckDB out-performs SQLite by 30-50x at the highest margin and 3-8x at the lowest.
 
 ## Example Projects
 - [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html): A fast, free, and open-source Modern Data Stack (MDS) can now be fully deployed on your laptop or to a single machine using the combination of DuckDB, Meltano, dbt, and Apache Superset. 
