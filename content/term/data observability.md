@@ -4,7 +4,7 @@ tags:
 - data engineering
 ---
 
-Data observability, also known as monitoring, is the process of continuously collecting metrics about your data. For each dataset, you can collect data about the number of rows, columns, and properties. You can also collect metadata about the dataset itself, such as the time it was last updated.
+Data observability, also known as monitoring, continuously collects metrics about your data. You can collect data about the number of rows, columns, and properties for each dataset. You can also manage metadata about the dataset, such as when it was last updated.
 
 From the great article [Choosing a Data Quality Tool - by Sarah Krasnik](https://sarahsnewsletter.substack.com/p/choosing-a-data-quality-tool?s=r), there are also different categories for observability:
 - **Auto-profiling data**
@@ -18,8 +18,8 @@ From the great article [Choosing a Data Quality Tool - by Sarah Krasnik](https:/
 	- [Soda](https://www.soda.io/): unique in its self-hosted cloud option
 	- [dbt tests](https://docs.getdbt.com/docs/building-a-dbt-project/tests): unique in integration with dbt core and dbt Cloud builds (naturally), but not as versatile outside of the dbt ecosystem
 - **Infrastructure monitoring**
-	- [DataDog](https://www.datadoghq.com/): unique agent implementation that can be deployed anywhere for monitoring even at the container level with custom Airflow metric reporting
-	- [New Relic](https://newrelic.com/): unique one-step integration with the big 3 cloud 	
+	- [DataDog](https://www.datadoghq.com/): unique agent implementation that can be deployed anywhere for monitoring, even at the container level, with custom Airflow metric reporting
+	- [New Relic](https://newrelic.com/): unique one-step integration with the big three cloud 	
 - **A little bit of everything**
 	- [Databand](https://databand.ai/): unique integration with Airflow and specific Airflow metric monitoring
 	- [Unravel](https://www.unraveldata.com/): unique support for other data sources like Spark, data lake, and NoSQL databases
