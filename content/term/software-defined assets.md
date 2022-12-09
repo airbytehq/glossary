@@ -4,7 +4,7 @@ tags:
 - data engineering
 ---
 The software-defined asset was first [introduced](https://dagster.io/blog/software-defined-assets) by [Dagster](term/Dagster.md) with the following definition:
-> A new, [declarative](term/declarative.md)] approach to managing data and orchestrating its maintenance. 
+> A new, [declarative](term/declarative.md) approach to managing data and orchestrating its maintenance. 
 > Declarative data management starts with using code to define the data assets that you want to exist. These asset definitions, version-controlled through git and inspectable via tooling, allow anyone in your organization to understand your canonical set of data assets, enable you to reproduce them at any time, and offer a foundation for asset-based orchestration.
 
 The key to software-defined assets is to declare a data asset/product pre-runtime. The SW-defined function in Dagster is like a microservice or the code that defines the asset in a  [functional way](term/functional%20data%20engineering.md) (that can live independently). With the declarative approach, we have more information defined as code helping the [orchestrator](term/data%20orchestrator.md) to figure out the lineage, how to run, etc. 
