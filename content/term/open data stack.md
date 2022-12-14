@@ -4,9 +4,9 @@ tags:
 - data engineering
 ---
 
-The open data stack is a better term for the [Modern Data Stack](term/modern%20data%20stack.md), but it also focuses on solutions built on open-source and open standards covering the [Data Engineering Lifecycle](term/data%20engineering%20lifecycle.md). The open data stack is maintained by everyone using it. Companies can reuse existing battle-tested solutions and build on them instead of reinventing the wheel by re-implementing critical components for each component of the data stack.
+The open data stack is a better term for the [Modern Data Stack](term/modern%20data%20stack.md) but focuses on solutions built on open-source and open standards covering the [Data Engineering Lifecycle](term/data%20engineering%20lifecycle.md). The open data stack is maintained by everyone using it. Companies can reuse existing battle-tested solutions and build on them instead of reinventing the wheel by re-implementing critical components for each component of the data stack.
 
-The *open* piece is so important and often overlooked because it’s what makes the #opendatastack more embeddable with tools from the open data stack such as [Airbyte](templates/airbyte.md), [dbt](dbt), [Dagster](Dagster), [Superset](term/apache%20superset), and so forth. Letting you integrate them into your services, unlike closed-source services.
+The *open* piece is so important and often overlooked because it’s what makes the #opendatastack more embeddable with tools from the open data stack such as [Airbyte](term/airbyte.md), [dbt](dbt), [Dagster](Dagster), [Superset](term/apache%20superset), and so forth. Letting you integrate them into your services, unlike closed-source services.
 
 > [!example] See a reference project building the open-data-stack
 > This is the start of the open data stack in action. Check out the GitHub repo [Open-Data-Stack](https://github.com/airbytehq/open-data-stack/).

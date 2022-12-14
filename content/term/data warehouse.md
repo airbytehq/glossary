@@ -3,7 +3,7 @@ title: "What is a Data Warehouse?"
 tags:
 - data engineering
 ---
-A Data Warehouse, in short DWH, also known as an Enterprise Data Warehouse (EDW), is the traditional way of collecting data as we do [since 30+ years](https://tdwi.org/articles/2016/02/01/data-warehousing-30.aspx). The DWH serves to be the data integration from many different sources, the single point of truth and the data management, meaning cleaning, historizing, and data joined together. It provides greater executive insight into corporate performance with management Dashboards, Reports, or Ad-Hoc Analyses.
+A Data Warehouse, in short DWH, also known as an Enterprise Data Warehouse (EDW), is the traditional way of collecting data as we do [since 30+ years](https://tdwi.org/articles/2016/02/01/data-warehousing-30.aspx). The DWH serves to be the [data integration](term/data%20integration.md) from many different sources, the single point of truth and the data management, meaning cleaning, historizing, and data joined together. It provides greater executive insight into corporate performance with management Dashboards, Reports, or Ad-Hoc Analyses.
 
 Various types of business data are analyzed with Data Warehouses. The need for it often becomes evident when analytic requirements run afoul of the ongoing performance of operational databases. Running a complex query on a database requires the database to enter a temporarily fixed state. It is often untenable for transactional databases. A data warehouse is employed to do the analytical work, leaving the transactional database free to focus on transactions.
 
