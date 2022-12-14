@@ -3,26 +3,15 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - hugo
+      - master
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      # - name: Checkout python
-      #   uses: actions/checkout@v2
-      # # Setup steps
-      # - uses: actions/setup-python@v2
-      #   with:
-      #     python-version: "3.9.11"
-
-#         # hack to have lower-case links instead e.g. instead of term/Apache-Avro we have term/apache-avro
-#       - name: Convert links of terms to lower case
-#         run: python3 lower_case.py
 
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.18
@@ -32,28 +21,19 @@ jobs:
           output: assets/indices
           root: .
 
-      # - name: Convert linkIndex to lower case (assets)
-      #   run: sudo python3 lower_link_index.py "assets/indices/"
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.96.0'
+          hugo-version: 'latest'
           extended: true
 
       - name: Build Hugo 
         run: hugo --minify
 
-         # # hack to also update graph view to lower-case (otherwise links are not showing correctly)
-      # - name: Convert links to lower case (public)
-        # run: sudo python3 lower_link_index.py "public/indices/"
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} 
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          external_repository: airbyteglossary/airbyteglossary.github.io 
-          publish_branch: master  # deploying branch
-          cname: glossary.airbyte.com # without trailing slash #https://airbytehq.github.io/brain
+          publish_branch: gh-pages
+          cname: glossary.airbyte.com
