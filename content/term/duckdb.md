@@ -35,7 +35,8 @@ Check out [Rill Data](https://www.rilldata.com/), a [BI tool](term/business%20in
 - [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html): A fast, free, and open-source Modern Data Stack (MDS) can now be fully deployed on your laptop or to a single machine using the combination of DuckDB, Meltano, dbt, and Apache Superset. 
 - [Fully Featured Project Example](https://github.com/dagster-io/dagster/blob/master/examples/project_fully_featured/) (s3, dbt, parquet, and snowflake) reading from Hackernews orchestrated with dagster.
 - [Data Engineering in 2022: Exploring dbt with DuckDB](https://rmoff.net/2022/10/20/data-engineering-in-2022-exploring-dbt-with-duckdb/):  Step-by-step guide on using dbt and DuckDB.
-- [Build a poor man’s data lake from scratch with DuckDB](https://dagster.io/blog/duckdb-data-lake): Full fleshed example by Dagster.
+- [Build a poor man’s data lake from scratch with DuckDB](https://dagster.io/blog/duckdb-data-lake): Full fleshed example by Dagster, also in [video](https://youtu.be/33sxkrt6eYk).
+- [Using Polars on results from DuckDB's Arrow interface in Rust](https://vikramoberoi.com/using-polars-on-results-from-duckdbs-arrow-interface-in-rust/)
 
 ## Tech and Papers
 It ships as an [amalgamation](https://www.sqlite.org/amalgamation.html) build - a single giant C++ file (SQLite is a single giant C file). And it's also backed up by some strong computer science. It's by the academic researchers behind MonetDB and includes implementations of a bunch of interesting papers:
