@@ -3,7 +3,7 @@ title: Data Glossary 🧠
 ---
 
 # A Single Place for All Data Knowledge
-Welcome to the Airbyte Data Glossary, a one-stop-shop for data-related concepts. Inspired by the [Digital Garden](https://jzhao.xyz/posts/networked-thought/) analogy, this interactive platform offers a comprehensive collection of data terms, covering various topics. The [Data Glossary](term/about%20this%20glossary.md) aims to help you expand your data knowledge and uncover new insights. Happy learning!
+Welcome to the Data Glossary, a one-stop-shop for data-related concepts. Inspired by the [Digital Garden](https://jzhao.xyz/posts/networked-thought/) analogy, this interactive platform offers a comprehensive collection of data terms, covering various topics. The [Data Glossary](term/about%20this%20glossary.md) aims to help you expand your data knowledge and uncover new insights. Happy learning!
 
 # Navigation
 There are multiple ways to navigate my Second Brain:
@@ -19,8 +19,8 @@ The Data Glossary is continuously growing, and while I have some essential Map 
 | Category              | Topics                                                                                        |
 |-----------------------|-----------------------------------------------------------------------------------------------|
 | Data Engineering      | [Data Engineering Concepts](term/data%20engineering%20concepts), [Data Engineering Guides](term/data%20engineering%20guides), [Data Engineering Lifecycle](term/data%20engineering%20lifecycle) |
-| Data Architectures          | [Data Lake](term/data%20lake), [Data Lakehouse](term/data%20lakehouse), [Data Warehouse](term/data%20warehouse) |
-| Data Processing       | [ETL](term/etl), [ELT](term/elt), [EtLT](term/etlt.md) [Data Integration](term/data%20integration), [Reverse ETL](term/reverse%20etl) |
+| Data Architectures          | [Data Warehouse](term/data%20warehouse), [Data Lake](term/data%20lake), [Data Lakehouse](term/data%20lakehouse) |
+| Data Processing       | [ELT](term/elt), [ETL](term/etl), [EtLT](term/etlt.md), [Reverse ETL](term/reverse%20etl), [Data Integration](term/data%20integration) |
 | Data Formats          | [Apache Avro](term/apache%20avro), [Apache Parquet](term/apache%20parquet), [Apache ORC](term/orc) |
 | Data Analysis, BI & ML    | [Analytics](term/analytics), [Business Intelligence](term/business%20intelligence), [Business Intelligence Tools](term/business%20intelligence%20tools.md), [Machine Learning](term/machine%20learning) |
 | Programming Languages | [Python](term/python), [Rust](term/rust), [SQL](term/sql) |
