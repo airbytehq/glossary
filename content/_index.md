@@ -2,20 +2,31 @@
 title: Data Glossary 🧠
 ---
 
-## A Single Place for All Data Knowledge
-Find all Glossary Terms below:
-* [By Tags](tags)
+# A Single Place for All Data Knowledge
+Welcome to the Airbyte Data Glossary, a one-stop-shop for data-related concepts. Inspired by the [Digital Garden](https://jzhao.xyz/posts/networked-thought/) analogy, this interactive platform offers a comprehensive collection of data terms, covering various topics. The [Data Glossary](term/about%20this%20glossary.md) aims to help you expand your data knowledge and uncover new insights. Happy learning!
 
-If you just want to get inspired, you can start with one of these terms:
-- [Data Engineering](term/data%20engineering.md) // [Business Intelligence](term/business%20intelligence.md) // [Analytics](term/analytics.md) // [Machine Learning](term/machine%20learning.md)
-- [Data Engineering Concepts](term/data%20engineering%20concepts.md) // [Data Engineering Guides](term/data%20engineering%20guides.md) 
-- [Data Lake](term/data%20lake.md) // [Data Lake Table Format](term/data%20lake%20table%20format.md) // [Data Lakehouse](term/data%20lakehouse.md)
-- [Programming Languages](term/programming%20languages.md) // [Functional Programming](term/functional%20programming.md)  // [Functional Data Engineering](term/functional%20data%20engineering.md)
-- [Airbyte Related Terms](tags/airbyte/)
+# Navigation
+There are multiple ways to navigate my Second Brain:
 
-Otherwise, you can simply [Search](https://glossary.airbyte.com/#navigation) (`cmd/ctrl+k`) for terms and content. Or find out more [About this Glossary](term/about%20this%20glossary.md).
+1. Use the search bar on the top right or press `cmd+k` (`ctrl+k` on Windows) or click on the Search button (top right) to search for any term.
+2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
+3. Interact with the graph at the bottom of the page to visualize connections between notes and click on any node to navigate directly to that note.
+4. Click on the [Hashtags](tags) to explore the topics by tags. 
 
-<br>
+## Map of Content
+The Data Glossary is continuously growing, and while I have some essential Map of Content starting points listed below, there are many more topics to discover as you explore. Feel free to dive into any of the following areas:
+
+| Category              | Topics                                                                                        |
+|-----------------------|-----------------------------------------------------------------------------------------------|
+| Data Engineering      | [Data Engineering Concepts](term/data%20engineering%20concepts), [Data Engineering Guides](term/data%20engineering%20guides), [Data Engineering Lifecycle](term/data%20engineering%20lifecycle) |
+| Data Architectures          | [Data Lake](term/data%20lake), [Data Lakehouse](term/data%20lakehouse), [Data Warehouse](term/data%20warehouse) |
+| Data Processing       | [ETL](term/etl), [ELT](term/elt), [EtLT](term/etlt.md) [Data Integration](term/data%20integration), [Reverse ETL](term/reverse%20etl) |
+| Data Formats          | [Apache Avro](term/apache%20avro), [Apache Parquet](term/apache%20parquet), [Apache ORC](term/orc) |
+| Data Analysis, BI & ML    | [Analytics](term/analytics), [Business Intelligence](term/business%20intelligence), [Business Intelligence Tools](term/business%20intelligence%20tools.md), [Machine Learning](term/machine%20learning) |
+| Programming Languages | [Python](term/python), [Rust](term/rust), [SQL](term/sql) |
+| Programming| [Functional Programming](term/functional%20programming), [Functional Data Engineering](term/functional%20data%20engineering) |
+
+## Contribute
 
 > [!info] How to Contribute?
 > 
@@ -23,5 +34,3 @@ Otherwise, you can simply [Search](https://glossary.airbyte.com/#navigation) (`c
 > 2.  🗣️  [Share the Glossary](https://twitter.com/intent/tweet?text=Great%20definitions%20on%20the%20data%20glossary%20🧠%20by%20@airbytehq&url=glossary.airbyte.com)
 > 3.  ✍️ Missing a Term or want to fix a typo? [Contribute to Glossary](term/contribute%20to%20glossary.md) 
 > 4. 👀 Want to discuss or need help, talk to us on [Slack](https://slack.airbyte.com)
-
-
