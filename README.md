@@ -1,4 +1,4 @@
-# Readme of Glossary 🧠
+# A Single Place for All Data Knowledge 🧠
 
 Hi, happy to see you here.
 
