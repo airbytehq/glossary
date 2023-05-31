@@ -18,7 +18,9 @@ Read more on [The Rise of the Semantic Layer](https://airbyte.com/blog/the-rise-
 -   [Down the Semantic Rabbit Hole](https://jpmonteiro.substack.com/p/down-the-semantic-rabbit-hole)
 -   [The Missing Piece of the Modern Data Stack](https://benn.substack.com/p/metrics-layer) 
 -   [Deep Dive: What The Heck Is the Metrics Layer](https://pedram.substack.com/p/what-is-the-metrics-layer)
+-   Follow-up: [Deep dive: What the heck is the Semantic Layer](https://cube.dev/blog/what-the-heck-is-the-headless-bi)
 -   [The Great Data Debate by Atlan](https://atlan.com/great-data-debate/)
 -   [The Metrics Layer has Growing up to do](https://prakasha.substack.com/p/the-metrics-layer-has-growing-up)
 -   [The Universal Semantic Layer, More Important Than Ever](https://www.atscale.com/blog/what-is-a-universal-semantic-layer-why-would-you-want-one/)
 -   [Demystifying the Metrics Store and Semantic Layer](https://thenewstack.io/demystifying-the-metrics-store-and-semantic-layer/)
+-   Semantic Superiority series: [Part 1](https://davidsj.substack.com/p/semantic-superiority-part-1), [Part 2](https://davidsj.substack.com/p/semantic-superiority-part-2), [Part 3](https://davidsj.substack.com/p/semantic-superiority-part-3), [Part 4](https://davidsj.substack.com/p/semantic-superiority-part-4), and [Part 5](https://davidsj.substack.com/p/semantic-superiority-part-5)
